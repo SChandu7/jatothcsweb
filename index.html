@@ -1,910 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. Chandrashekar Jatoth | Assistant Professor, NIT Raipur</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
 
+<!-- ═══════════════════ PRELOADER ═══════════════════ -->
+<div id="preloader">
+  <div class="loader-ring"></div>
+  <span class="loader-text">Loading Portfolio</span>
+</div>
 
+<!-- ═══════════════════ CURSOR ═══════════════════ -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
 
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <title>Dr. Chandrashekar Jatoth | Assistant Professor, NIT Raipur</title> <link rel="stylesheet" href="style.css" /> <link href="https://fonts.goo
+<!-- ═══════════════════ NAVBAR ═══════════════════ -->
+<nav id="navbar">
+  <div class="nav-brand">
+    <span class="brand-initials">CJ</span>
+    <span class="brand-name">Dr. C. Jatoth</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#home" class="nav-link active">Home</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#research" class="nav-link">Research</a></li>
+    <li><a href="#publications" class="nav-link">Publications</a></li>
+    <li><a href="#experience" class="nav-link">Experience</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+  <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+</nav>
 
-pasted
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-menu" id="closeMenu"><i class="fas fa-times"></i></button>
+  <ul>
+    <li><a href="#home" class="mob-link">Home</a></li>
+    <li><a href="#about" class="mob-link">About</a></li>
+    <li><a href="#research" class="mob-link">Research</a></li>
+    <li><a href="#publications" class="mob-link">Publications</a></li>
+    <li><a href="#experience" class="mob-link">Experience</a></li>
+    <li><a href="#contact" class="mob-link">Contact</a></li>
+  </ul>
+</div>
 
-hey redesign and chamnge the etheme of webiste as olus as place whiet bacgroud and ornage rd and blue colours a sprofessional wala and amke stye and templtae as same buyt jts cahne coloursoverall and make tgheperfect professioinal colours beaiutifulll ?
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section id="home" class="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
 
-2:58 PM
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-badge reveal">
+        <i class="fas fa-university"></i> NIT Raipur · Information Technology
+      </div>
+      <h1 class="hero-title reveal">
+        Dr. Chandrashekar<br/><span class="highlight-name">Jatoth</span>
+      </h1>
+      <p class="hero-role reveal">Assistant Professor &amp; Researcher</p>
+      <p class="hero-tagline reveal">
+        Pioneering research in <span class="typed-text" id="typedText"></span><span class="cursor-blink">|</span>
+      </p>
+      <div class="hero-stats reveal">
+        <div class="stat-pill">
+          <span class="stat-num" data-target="15">0</span>+
+          <span class="stat-label">Publications</span>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-num" data-target="10">0</span>+
+          <span class="stat-label">Years Research</span>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-num" data-target="6">0</span>+
+          <span class="stat-label">Impact Factor Journals</span>
+        </div>
+      </div>
+      <div class="hero-actions reveal">
+        <a href="#publications" class="btn-primary">View Publications <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+    </div>
 
-Reading frontend design skill
-Reading frontend design skill
-Now I'll redesign the CSS with a clean white background, deep navy blue, orange-red, and professional blue color scheme — keeping the exact same HTML structure and template.
+    <div class="hero-photo-wrap reveal">
+      <div class="photo-frame">
+        <div class="photo-ring ring-1"></div>
+        <div class="photo-ring ring-2"></div>
+        <div class="photo-ring ring-3"></div>
+        <img src="https://djangotestcase.s3.ap-south-1.amazonaws.com/WhatsApp+Image+2026-03-28+at+12.28.56+PM.jpeg" 
+             alt="Dr. Chandrashekar Jatoth" 
+             class="profile-photo"
+             id="profilePhoto"/>
+        <div class="photo-glow"></div>
+      </div>
+      <div class="float-badge f-badge-1"><i class="fas fa-cloud"></i> Cloud Computing</div>
+      <div class="float-badge f-badge-2"><i class="fas fa-brain"></i> AI Research</div>
+      <div class="float-badge f-badge-3"><i class="fas fa-network-wired"></i> IoT & Fog</div>
+    </div>
+  </div>
 
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
 
-Created a file, read a file
-Created a file, read a file
-Here's your redesigned style.css! Just drop it in place of the old one — the HTML stays 100% unchanged.
+<!-- ═══════════════════ ABOUT ═══════════════════ -->
+<section id="about" class="about section-pad">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Who I Am</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="title-underline"></div>
+    </div>
 
-Here's what changed in the new theme:
+    <div class="about-grid">
+      <div class="about-bio reveal-left">
+        <p class="bio-lead">A passionate researcher and educator specializing in intelligent computing systems, cloud infrastructure, and AI-driven solutions for real-world problems.</p>
+        <p class="bio-text">I hold a Ph.D. from the University of Hyderabad, with an M.Tech in Artificial Intelligence, and have spent over a decade contributing to academia and research institutions including the Reserve Bank of India's technology arm (IDRBT).</p>
+        <p class="bio-text">My work spans from QoS-aware cloud service composition to blockchain-based cyber-physical systems, with publications in top Elsevier, Springer, Wiley, and IEEE journals.</p>
 
-Color Palette:
+        <div class="about-contact-chips">
+          <a href="mailto:jchandrashekar.it@nitrr.ac.in" class="chip"><i class="fas fa-envelope"></i> jchandrashekar.it@nitrr.ac.in</a>
+          <a href="tel:+918897741409" class="chip"><i class="fas fa-phone"></i> +91-8897741409</a>
+        </div>
+      </div>
 
-Background → Clean white (
-#ffffff) with soft off-white section alternates
-Crimson-Orange (
-#d94f2e → 
-#f0820a) — replaces gold, used for all primary accents, highlights, CTAs, and hover states
-Royal Blue (
-#1652a8) — replaces teal, used for chips, links, icon backgrounds, and venue text
-Deep Navy (
-#0a1628) — kept as the dark base for hero, metrics, footer, and navbar on mobile
-What looks different:
+      <div class="about-details reveal-right">
+        <div class="detail-card">
+          <div class="detail-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div>
+            <h4>Education</h4>
+            <ul class="edu-list">
+              <li><strong>Ph.D.</strong> – University of Hyderabad</li>
+              <li><strong>M.Tech (AI)</strong> – University of Hyderabad</li>
+              <li><strong>B.E.</strong> – Computer Engineering</li>
+            </ul>
+          </div>
+        </div>
 
-Navbar is now bright white with a subtle border — very clean and professional
-Hero stays dark navy but uses blue + orange-red orbs instead of teal + gold
-Publication cards get a left red border on hover instead of a top edge — feels more editorial
-Metrics section stays dark navy with a grid background pattern for depth
-Form inputs have a blue focus ring instead of gold
-All floating badges are now white cards with colored icons — much more polished on the dark hero
-Style
-Code · CSS 
+        <div class="detail-card">
+          <div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <h4>Current Position</h4>
+            <p>Assistant Professor (Gr-II)<br/>Department of Information Technology<br/>NIT Raipur, Chhattisgarh, India</p>
+          </div>
+        </div>
 
+        <div class="detail-card">
+          <div class="detail-icon"><i class="fas fa-envelope-open-text"></i></div>
+          <div>
+            <h4>Contact</h4>
+            <p>chandrashekar.jatoth@gmail.com<br/>jchandrashekar.it@nitrr.ac.in<br/>+91-8897741409</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- ═══════════════════ RESEARCH AREAS ═══════════════════ -->
+<section id="research" class="research section-pad">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Expertise</span>
+      <h2 class="section-title">Research Areas</h2>
+      <div class="title-underline"></div>
+    </div>
 
+    <div class="research-grid">
+      <div class="research-card reveal" data-delay="0">
+        <div class="rc-icon-wrap" style="--rc-color: #4f8ef7;">
+          <i class="fas fa-cloud-upload-alt"></i>
+        </div>
+        <h3>Cloud / Fog Computing</h3>
+        <p>QoS-aware service composition, resource scheduling, and cloud service evaluation using evolutionary and meta-heuristic algorithms.</p>
+        <div class="rc-tags">
+          <span>Cloud Services</span><span>Fog IoT</span><span>QoS</span>
+        </div>
+      </div>
 
-Claude is AI and can make mistakes. Please double-check responses.
-Style · CSS
-Copy
+      <div class="research-card reveal" data-delay="100">
+        <div class="rc-icon-wrap" style="--rc-color: #e2b96f;">
+          <i class="fas fa-bolt"></i>
+        </div>
+        <h3>Energy Informatics</h3>
+        <p>Energy-efficient scheduling and optimization models for IoT and fog computing environments.</p>
+        <div class="rc-tags">
+          <span>Energy Efficiency</span><span>Scheduling</span><span>IoT</span>
+        </div>
+      </div>
 
-/* ═══════════════════════════════════════════
-   DR. CHANDRASHEKAR JATOTH — PORTFOLIO CSS
-   Theme: White · Deep Navy · Crimson-Orange · Royal Blue
-   ═══════════════════════════════════════════ */
- 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
- 
-:root {
-  /* Core Palette */
-  --navy:        #0a1628;
-  --navy-mid:    #112240;
-  --navy-light:  #1a3260;
-  --royal:       #1652a8;
-  --royal-light: #2563c7;
-  --crimson:     #d94f2e;
-  --crimson-light:#e86840;
-  --amber:       #f0820a;
-  --white:       #ffffff;
-  --off-white:   #f7f8fc;
-  --light-gray:  #eef1f8;
-  --mid-gray:    #c4cfe0;
-  --text-dark:   #0a1628;
-  --text-muted:  #5a6a8a;
-  --text-body:   #2c3e60;
- 
-  /* Component Colors */
-  --card-bg:     #ffffff;
-  --card-border: #e2e8f5;
-  --section-alt: #f4f7fd;
-  --shadow-soft: 0 4px 24px rgba(10,22,40,0.08);
-  --shadow-med:  0 8px 40px rgba(10,22,40,0.12);
-  --shadow-hard: 0 16px 56px rgba(10,22,40,0.18);
- 
-  --radius:      14px;
-  --font-head:   'Cormorant Garamond', serif;
-  --font-body:   'Outfit', sans-serif;
-  --font-mono:   'Space Mono', monospace;
-  --transition:  0.3s cubic-bezier(0.4,0,0.2,1);
-}
- 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; font-size: 16px; }
-body {
-  font-family: var(--font-body);
-  background: var(--white);
-  color: var(--text-body);
-  overflow-x: hidden;
-  cursor: none;
-}
- 
-/* ── Scrollbar ── */
-::-webkit-scrollbar { width: 5px; }
-::-webkit-scrollbar-track { background: var(--light-gray); }
-::-webkit-scrollbar-thumb { background: var(--crimson); border-radius: 3px; }
- 
-/* ═══════════════════ PRELOADER ═══════════════════ */
-#preloader {
-  position: fixed; inset: 0;
-  background: var(--navy);
-  z-index: 9999;
-  display: flex; flex-direction: column;
-  align-items: center; justify-content: center;
-  gap: 1.2rem;
-  transition: opacity 0.6s, visibility 0.6s;
-}
-#preloader.hidden { opacity: 0; visibility: hidden; }
-.loader-ring {
-  width: 56px; height: 56px;
-  border: 3px solid rgba(217,79,46,0.2);
-  border-top-color: var(--crimson);
-  border-radius: 50%;
-  animation: spin 0.9s linear infinite;
-}
-.loader-text {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.15em;
-  color: var(--mid-gray);
-  animation: pulse 1.2s ease-in-out infinite;
-}
-@keyframes spin { to { transform: rotate(360deg); } }
-@keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
- 
-/* ═══════════════════ CUSTOM CURSOR ═══════════════════ */
-.cursor-dot, .cursor-ring {
-  position: fixed; pointer-events: none; z-index: 9998; border-radius: 50%;
-  transform: translate(-50%, -50%);
-  transition: opacity 0.3s;
-}
-.cursor-dot { width: 6px; height: 6px; background: var(--crimson); }
-.cursor-ring {
-  width: 30px; height: 30px;
-  border: 1.5px solid var(--crimson);
-  opacity: 0.4;
-  transition: width 0.3s, height 0.3s, opacity 0.3s;
-}
-body:has(a:hover) .cursor-ring,
-body:has(button:hover) .cursor-ring {
-  width: 48px; height: 48px; opacity: 0.2;
-}
- 
-/* ═══════════════════ NAVBAR ═══════════════════ */
-#navbar {
-  position: fixed; top: 0; left: 0; right: 0;
-  z-index: 1000;
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 0 5%;
-  height: 68px;
-  background: rgba(255,255,255,0.95);
-  backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--card-border);
-  transition: box-shadow var(--transition);
-}
-#navbar.scrolled { box-shadow: 0 2px 20px rgba(10,22,40,0.1); }
- 
-.nav-brand {
-  display: flex; align-items: center; gap: 10px;
-  text-decoration: none; color: inherit;
-}
-.brand-initials {
-  width: 38px; height: 38px;
-  background: linear-gradient(135deg, var(--crimson), var(--amber));
-  border-radius: 10px;
-  display: grid; place-items: center;
-  font-family: var(--font-head);
-  font-weight: 700; font-size: 1rem;
-  color: white;
-}
-.brand-name {
-  font-weight: 600; font-size: 0.95rem;
-  color: var(--navy);
-  letter-spacing: 0.02em;
-}
- 
-.nav-links { list-style: none; display: flex; gap: 0.2rem; }
-.nav-link {
-  display: block; padding: 0.45rem 0.9rem;
-  color: var(--text-muted); font-size: 0.88rem; font-weight: 500;
-  text-decoration: none; border-radius: 8px;
-  transition: color var(--transition), background var(--transition);
-}
-.nav-link:hover, .nav-link.active {
-  color: var(--crimson);
-  background: rgba(217,79,46,0.06);
-}
- 
-.menu-toggle {
-  display: none; background: none; border: none;
-  color: var(--navy); font-size: 1.3rem; cursor: pointer;
-}
- 
-/* Mobile Menu */
-.mobile-menu {
-  position: fixed; top: 0; right: -100%;
-  width: 260px; height: 100vh;
-  background: var(--navy);
-  z-index: 1100;
-  padding: 2rem 1.5rem;
-  transition: right 0.4s cubic-bezier(0.4,0,0.2,1);
-  border-left: 1px solid rgba(255,255,255,0.08);
-}
-.mobile-menu.open { right: 0; }
-.close-menu {
-  background: none; border: none; color: var(--mid-gray);
-  font-size: 1.3rem; cursor: pointer; margin-bottom: 2rem;
-  display: block;
-}
-.mobile-menu ul { list-style: none; }
-.mob-link {
-  display: block; padding: 0.75rem 0;
-  color: white; text-decoration: none;
-  font-size: 1rem; font-weight: 500;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-  transition: color var(--transition);
-}
-.mob-link:hover { color: var(--crimson); }
- 
-/* ═══════════════════ HERO ═══════════════════ */
-.hero {
-  min-height: 100vh;
-  position: relative;
-  display: flex; align-items: center;
-  padding: 100px 5% 60px;
-  overflow: hidden;
-  background: var(--navy);
-}
- 
-/* Geometric grid bg */
-.hero-bg-grid {
-  position: absolute; inset: 0;
-  background-image:
-    linear-gradient(rgba(22,82,168,0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(22,82,168,0.06) 1px, transparent 1px);
-  background-size: 56px 56px;
-}
- 
-/* Diagonal stripe accent */
-.hero-bg-grid::after {
-  content: '';
-  position: absolute;
-  top: 0; right: 0;
-  width: 45%;
-  height: 100%;
-  background: linear-gradient(145deg, rgba(22,82,168,0.12) 0%, rgba(217,79,46,0.08) 60%, transparent 100%);
-  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
-}
- 
-.hero-orbs { position: absolute; inset: 0; pointer-events: none; }
-.orb {
-  position: absolute; border-radius: 50%;
-  filter: blur(90px); animation: drift 12s ease-in-out infinite alternate;
-}
-.orb-1 { width: 500px; height: 500px; background: rgba(22,82,168,0.18); top: -10%; right: -5%; }
-.orb-2 { width: 350px; height: 350px; background: rgba(217,79,46,0.12); bottom: 10%; left: -5%; animation-delay: -3s; }
-.orb-3 { width: 250px; height: 250px; background: rgba(240,130,10,0.1); top: 40%; right: 25%; animation-delay: -6s; }
-@keyframes drift { from { transform: translateY(0) scale(1); } to { transform: translateY(-30px) scale(1.05); } }
- 
-.hero-content {
-  position: relative; z-index: 2;
-  max-width: 1200px; margin: 0 auto;
-  display: grid; grid-template-columns: 1fr 1fr;
-  align-items: center; gap: 4rem;
-  width: 100%;
-}
- 
-.hero-badge {
-  display: inline-flex; align-items: center; gap: 0.5rem;
-  padding: 0.35rem 1rem;
-  background: rgba(22,82,168,0.18);
-  border: 1px solid rgba(22,82,168,0.35);
-  border-radius: 50px;
-  font-size: 0.8rem; font-weight: 500;
-  color: #6ba3f7;
-  margin-bottom: 1.2rem;
-  letter-spacing: 0.04em;
-}
- 
-.hero-title {
-  font-family: var(--font-head);
-  font-size: clamp(2.8rem, 5.5vw, 4.4rem);
-  font-weight: 800;
-  line-height: 1.05;
-  color: white;
-  margin-bottom: 0.8rem;
-}
-.highlight-name {
-  background: linear-gradient(90deg, var(--crimson), var(--amber));
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
- 
-.hero-role {
-  font-size: 1.05rem; font-weight: 500;
-  color: rgba(255,255,255,0.55); margin-bottom: 0.8rem;
-  letter-spacing: 0.04em;
-}
- 
-.hero-tagline {
-  font-size: 1.1rem; color: rgba(255,255,255,0.85);
-  margin-bottom: 2rem; min-height: 1.8em;
-}
-.typed-text { color: #f0820a; font-weight: 600; }
-.cursor-blink { animation: blink 1s step-end infinite; color: var(--crimson); }
-@keyframes blink { 50% { opacity: 0; } }
- 
-.hero-stats {
-  display: flex; gap: 1.2rem; flex-wrap: wrap;
-  margin-bottom: 2.2rem;
-}
-.stat-pill {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 12px;
-  padding: 0.7rem 1.2rem;
-  font-size: 0.85rem;
-  display: flex; flex-direction: column; align-items: center;
-  gap: 0.1rem;
-  transition: border-color var(--transition), transform var(--transition);
-}
-.stat-pill:hover { border-color: var(--crimson); transform: translateY(-3px); }
-.stat-num { font-family: var(--font-head); font-size: 1.6rem; font-weight: 700; color: var(--crimson-light); display: inline; }
-.stat-label { color: rgba(255,255,255,0.45); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; }
- 
-.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
- 
-.btn-primary {
-  display: inline-flex; align-items: center; gap: 0.5rem;
-  padding: 0.75rem 1.6rem;
-  background: linear-gradient(135deg, var(--crimson), var(--amber));
-  color: white;
-  border: none; border-radius: 10px;
-  font-weight: 600; font-size: 0.9rem;
-  text-decoration: none; cursor: pointer;
-  transition: transform var(--transition), box-shadow var(--transition);
-  box-shadow: 0 4px 24px rgba(217,79,46,0.4);
-}
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(217,79,46,0.5); }
- 
-.btn-outline {
-  display: inline-flex; align-items: center; gap: 0.5rem;
-  padding: 0.75rem 1.6rem;
-  background: transparent;
-  color: white;
-  border: 1.5px solid rgba(255,255,255,0.25);
-  border-radius: 10px;
-  font-weight: 500; font-size: 0.9rem;
-  text-decoration: none; cursor: pointer;
-  transition: border-color var(--transition), color var(--transition), transform var(--transition);
-}
-.btn-outline:hover { border-color: var(--crimson); color: var(--crimson-light); transform: translateY(-2px); }
- 
-/* Photo */
-.hero-photo-wrap {
-  position: relative; display: flex; justify-content: center; align-items: center;
-}
-.photo-frame {
-  position: relative; width: 280px; height: 280px;
-}
-.photo-ring {
-  position: absolute; border-radius: 50%;
-  animation: rotate-ring 10s linear infinite;
-}
-.ring-1 {
-  inset: -18px;
-  border: 1.5px dashed rgba(217,79,46,0.35);
-}
-.ring-2 {
-  inset: -34px;
-  border: 1px dashed rgba(22,82,168,0.25);
-  animation-duration: 18s; animation-direction: reverse;
-}
-.ring-3 {
-  inset: -50px;
-  border: 1px dashed rgba(240,130,10,0.15);
-  animation-duration: 25s;
-}
-@keyframes rotate-ring { to { transform: rotate(360deg); } }
- 
-.profile-photo {
-  width: 280px; height: 280px; border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid var(--crimson);
-  position: relative; z-index: 2;
-  box-shadow: 0 0 60px rgba(217,79,46,0.3);
-}
-.photo-glow {
-  position: absolute; inset: 0; border-radius: 50%;
-  background: radial-gradient(circle, rgba(217,79,46,0.18) 0%, transparent 70%);
-  z-index: 1;
-}
- 
-.float-badge {
-  position: absolute;
-  background: white;
-  border: 1px solid var(--card-border);
-  border-radius: 50px;
-  padding: 0.4rem 0.9rem;
-  font-size: 0.75rem; font-weight: 600;
-  color: var(--royal);
-  box-shadow: 0 4px 20px rgba(10,22,40,0.12);
-  white-space: nowrap;
-  animation: float-y 4s ease-in-out infinite alternate;
-  z-index: 5;
-}
-.float-badge i { margin-right: 0.3rem; color: var(--crimson); }
-.f-badge-1 { top: 10%; left: -8%; animation-delay: 0s; }
-.f-badge-2 { bottom: 15%; left: -12%; animation-delay: -1.5s; }
-.f-badge-3 { top: 35%; right: -14%; animation-delay: -3s; }
-@keyframes float-y { from { transform: translateY(0); } to { transform: translateY(-10px); } }
- 
-.scroll-indicator {
-  position: absolute; bottom: 2.5rem; left: 5%;
-  display: flex; flex-direction: column; align-items: center; gap: 0.4rem;
-  color: rgba(255,255,255,0.35); font-size: 0.7rem; letter-spacing: 0.12em;
-  text-transform: uppercase;
-  animation: fade-pulse 2.5s ease-in-out infinite;
-}
-.scroll-line {
-  width: 1px; height: 44px;
-  background: linear-gradient(to bottom, var(--crimson), transparent);
-}
-@keyframes fade-pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
- 
-/* ═══════════════════ SECTION COMMON ═══════════════════ */
-.section-pad { padding: 90px 5%; }
-.container { max-width: 1180px; margin: 0 auto; }
- 
-.section-header { text-align: center; margin-bottom: 3.5rem; }
-.section-tag {
-  display: inline-block;
-  font-family: var(--font-mono);
-  font-size: 0.72rem; letter-spacing: 0.18em;
-  text-transform: uppercase; color: var(--crimson);
-  margin-bottom: 0.6rem;
-}
-.section-title {
-  font-family: var(--font-head);
-  font-size: clamp(2rem, 3.5vw, 2.9rem);
-  font-weight: 700; color: var(--navy);
-  margin-bottom: 0.8rem;
-}
-.title-underline {
-  width: 60px; height: 3px;
-  background: linear-gradient(90deg, var(--crimson), var(--royal));
-  margin: 0 auto; border-radius: 2px;
-}
- 
-/* ═══════════════════ ABOUT ═══════════════════ */
-.about { background: var(--section-alt); }
- 
-.about-grid {
-  display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 3.5rem;
-  align-items: start;
-}
- 
-.bio-lead {
-  font-size: 1.12rem; font-weight: 500; color: var(--navy);
-  line-height: 1.75; margin-bottom: 1rem;
-}
-.bio-text {
-  font-size: 0.95rem; color: var(--text-muted); line-height: 1.8;
-  margin-bottom: 0.8rem;
-}
- 
-.about-contact-chips { display: flex; gap: 0.7rem; flex-wrap: wrap; margin-top: 1.5rem; }
-.chip {
-  display: inline-flex; align-items: center; gap: 0.4rem;
-  padding: 0.35rem 0.9rem;
-  background: rgba(22,82,168,0.07);
-  border: 1px solid rgba(22,82,168,0.18);
-  border-radius: 50px;
-  font-size: 0.78rem; color: var(--royal);
-  text-decoration: none;
-  transition: background var(--transition);
-}
-.chip:hover { background: rgba(22,82,168,0.12); }
- 
-.about-details { display: flex; flex-direction: column; gap: 1rem; }
-.detail-card {
-  display: flex; align-items: flex-start; gap: 1rem;
-  padding: 1.1rem 1.3rem;
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius);
-  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
-}
-.detail-card:hover { border-color: rgba(217,79,46,0.25); transform: translateX(4px); box-shadow: var(--shadow-soft); }
-.detail-icon {
-  width: 38px; height: 38px; flex-shrink: 0;
-  background: linear-gradient(135deg, rgba(217,79,46,0.1), rgba(240,130,10,0.06));
-  border-radius: 10px;
-  display: grid; place-items: center;
-  color: var(--crimson); font-size: 0.9rem;
-}
-.detail-card h4 {
-  font-size: 0.78rem; font-weight: 700;
-  text-transform: uppercase; letter-spacing: 0.08em;
-  color: var(--crimson); margin-bottom: 0.3rem;
-}
-.detail-card p, .detail-card li {
-  font-size: 0.87rem; color: var(--text-muted); line-height: 1.6;
-}
-.edu-list { list-style: none; }
-.edu-list li { margin-bottom: 0.2rem; }
- 
-/* ═══════════════════ RESEARCH ═══════════════════ */
-.research { background: var(--white); }
- 
-.research-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;
-}
- 
-.research-card {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius);
-  padding: 1.6rem;
-  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
-  position: relative; overflow: hidden;
-}
-.research-card::before {
-  content: '';
-  position: absolute; top: 0; left: 0; right: 0;
-  height: 3px;
-  background: var(--rc-color, var(--crimson));
-  opacity: 0; transition: opacity var(--transition);
-}
-.research-card:hover { transform: translateY(-6px); border-color: rgba(10,22,40,0.12); box-shadow: var(--shadow-med); }
-.research-card:hover::before { opacity: 1; }
- 
-.rc-icon-wrap {
-  width: 50px; height: 50px;
-  background: color-mix(in srgb, var(--rc-color) 10%, transparent);
-  border-radius: 14px;
-  display: grid; place-items: center;
-  font-size: 1.25rem;
-  color: var(--rc-color, var(--crimson));
-  margin-bottom: 1rem;
-  transition: transform var(--transition);
-}
-.research-card:hover .rc-icon-wrap { transform: scale(1.1) rotate(-5deg); }
- 
-.research-card h3 {
-  font-family: var(--font-head);
-  font-size: 1.1rem; font-weight: 700;
-  color: var(--navy); margin-bottom: 0.6rem;
-}
-.research-card p { font-size: 0.87rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 1rem; }
- 
-.rc-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-.rc-tags span {
-  font-size: 0.7rem; font-weight: 500;
-  padding: 0.2rem 0.6rem;
-  background: var(--light-gray);
-  border-radius: 50px; color: var(--text-muted);
-  border: 1px solid var(--card-border);
-}
- 
-/* ═══════════════════ PUBLICATIONS ═══════════════════ */
-.publications { background: var(--section-alt); }
- 
-.pub-filters {
-  display: flex; gap: 0.6rem; margin-bottom: 2rem; flex-wrap: wrap;
-}
-.pub-filter {
-  padding: 0.45rem 1.1rem;
-  background: transparent;
-  border: 1px solid var(--card-border);
-  border-radius: 50px;
-  color: var(--text-muted); font-size: 0.85rem; font-weight: 500;
-  cursor: pointer; transition: all var(--transition);
-}
-.pub-filter.active, .pub-filter:hover {
-  background: var(--crimson);
-  border-color: var(--crimson);
-  color: white;
-}
- 
-.pub-list { display: flex; flex-direction: column; gap: 1rem; }
-.pub-item {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius);
-  padding: 1.4rem 1.6rem;
-  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
-  border-left: 3px solid transparent;
-}
-.pub-item:hover { transform: translateX(5px); border-left-color: var(--crimson); box-shadow: var(--shadow-soft); }
-.pub-item.hidden { display: none; }
- 
-.pub-meta {
-  display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap;
-  margin-bottom: 0.6rem;
-}
-.pub-year {
-  font-family: var(--font-mono);
-  font-size: 0.78rem; color: var(--crimson);
-  background: rgba(217,79,46,0.08);
-  padding: 0.15rem 0.6rem; border-radius: 50px;
-}
-.pub-type {
-  font-size: 0.7rem; font-weight: 700;
-  letter-spacing: 0.08em; text-transform: uppercase;
-  padding: 0.15rem 0.6rem; border-radius: 50px;
-}
-.journal-tag { background: rgba(22,82,168,0.08); color: var(--royal); }
-.conf-tag { background: rgba(240,130,10,0.1); color: #c0660a; }
-.pub-if {
-  font-size: 0.75rem; color: var(--text-muted);
-  background: var(--light-gray);
-  padding: 0.15rem 0.6rem; border-radius: 50px;
-  border: 1px solid var(--card-border);
-}
- 
-.pub-title {
-  font-family: var(--font-head);
-  font-size: 1rem; font-weight: 600;
-  color: var(--navy); margin-bottom: 0.4rem;
-  line-height: 1.5;
-}
-.pub-authors {
-  font-size: 0.83rem; color: var(--text-muted); margin-bottom: 0.4rem;
-  line-height: 1.5;
-}
-.pub-authors strong { color: var(--crimson); }
-.pub-venue {
-  font-size: 0.83rem; color: var(--royal); font-style: italic;
-}
-.pub-venue i { margin-right: 0.35rem; font-style: normal; }
- 
-/* ═══════════════════ EXPERIENCE ═══════════════════ */
-.experience { background: var(--white); }
- 
-.exp-tabs { display: flex; gap: 0.5rem; margin-bottom: 2.5rem; }
-.exp-tab {
-  padding: 0.5rem 1.4rem;
-  background: transparent;
-  border: 1px solid var(--card-border);
-  border-radius: 50px;
-  color: var(--text-muted); font-size: 0.88rem; font-weight: 500;
-  cursor: pointer; transition: all var(--transition);
-}
-.exp-tab.active { background: var(--navy); border-color: var(--navy); color: white; }
-.exp-tab:hover:not(.active) { border-color: var(--crimson); color: var(--crimson); }
- 
-.timeline { position: relative; padding-left: 2rem; }
-.timeline::before {
-  content: '';
-  position: absolute; left: 8px; top: 0; bottom: 0;
-  width: 2px;
-  background: linear-gradient(to bottom, var(--crimson), var(--royal), transparent);
-}
-.timeline.hidden { display: none; }
- 
-.tl-item {
-  position: relative; margin-bottom: 2rem;
-  padding-left: 1.8rem;
-}
-.tl-dot {
-  position: absolute; left: -2rem; top: 0.35rem;
-  width: 14px; height: 14px;
-  background: white;
-  border: 2px solid var(--mid-gray);
-  border-radius: 50%;
-  z-index: 1;
-  transition: border-color var(--transition);
-}
-.tl-dot.current { border-color: var(--crimson); background: var(--crimson); box-shadow: 0 0 0 4px rgba(217,79,46,0.15); }
-.tl-dot.research-dot { border-color: var(--royal); background: var(--royal); }
-.tl-item:hover .tl-dot { border-color: var(--crimson); }
- 
-.tl-period {
-  font-family: var(--font-mono); font-size: 0.73rem;
-  color: var(--crimson); letter-spacing: 0.06em;
-  margin-bottom: 0.3rem;
-}
-.tl-role {
-  font-family: var(--font-head);
-  font-size: 1.05rem; font-weight: 700;
-  color: var(--navy); margin-bottom: 0.3rem;
-}
-.tl-org {
-  font-size: 0.85rem; color: var(--royal); margin-bottom: 0.4rem;
-}
-.tl-org i { margin-right: 0.3rem; }
-.tl-desc { font-size: 0.87rem; color: var(--text-muted); line-height: 1.7; }
- 
-/* ═══════════════════ METRICS ═══════════════════ */
-.metrics {
-  background: var(--navy);
-  padding: 70px 5%;
-  position: relative;
-  overflow: hidden;
-}
-.metrics::before {
-  content: '';
-  position: absolute; inset: 0;
-  background-image:
-    linear-gradient(rgba(22,82,168,0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(22,82,168,0.08) 1px, transparent 1px);
-  background-size: 48px 48px;
-}
-.metrics-grid {
-  display: grid; grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem; max-width: 1180px; margin: 0 auto;
-  position: relative; z-index: 1;
-}
-.metric-card {
-  text-align: center; padding: 2rem 1rem;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: var(--radius);
-  transition: transform var(--transition), border-color var(--transition);
-}
-.metric-card:hover { transform: translateY(-5px); border-color: rgba(217,79,46,0.3); }
-.metric-icon {
-  font-size: 1.5rem; color: var(--crimson-light);
-  margin-bottom: 0.8rem;
-}
-.metric-num {
-  font-family: var(--font-head);
-  font-size: 2.8rem; font-weight: 900;
-  color: white;
-  line-height: 1;
-  margin-bottom: 0.4rem;
-}
-.metric-label {
-  font-size: 0.8rem; color: rgba(255,255,255,0.4);
-  text-transform: uppercase; letter-spacing: 0.08em;
-}
- 
-/* ═══════════════════ CONTACT ═══════════════════ */
-.contact { background: var(--section-alt); }
- 
-.contact-grid {
-  display: grid; grid-template-columns: 1fr 1.2fr; gap: 3.5rem;
-}
- 
-.contact-info h3 {
-  font-family: var(--font-head);
-  font-size: 1.6rem; color: var(--navy); margin-bottom: 0.8rem;
-}
-.contact-info p { color: var(--text-muted); line-height: 1.8; margin-bottom: 2rem; font-size: 0.95rem; }
- 
-.contact-items { display: flex; flex-direction: column; gap: 1rem; }
-.contact-item {
-  display: flex; align-items: flex-start; gap: 1rem;
-  padding: 0.9rem 1.1rem;
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: 10px;
-  transition: border-color var(--transition), box-shadow var(--transition);
-}
-.contact-item:hover { border-color: rgba(22,82,168,0.25); box-shadow: var(--shadow-soft); }
-.ci-icon {
-  width: 36px; height: 36px; flex-shrink: 0;
-  background: rgba(22,82,168,0.08);
-  border-radius: 9px;
-  display: grid; place-items: center;
-  color: var(--royal);
-}
-.ci-label {
-  display: block; font-size: 0.72rem;
-  text-transform: uppercase; letter-spacing: 0.08em;
-  color: var(--text-muted); margin-bottom: 0.15rem;
-}
-.ci-value {
-  font-size: 0.88rem; color: var(--text-body);
-  text-decoration: none; line-height: 1.5;
-  transition: color var(--transition);
-}
-a.ci-value:hover { color: var(--crimson); }
- 
-/* Form */
-.contact-form-wrap {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius);
-  padding: 2rem;
-  box-shadow: var(--shadow-soft);
-}
-.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-.form-group { margin-bottom: 1.1rem; }
-.form-group label {
-  display: block; font-size: 0.8rem; font-weight: 600;
-  color: var(--text-body); margin-bottom: 0.4rem;
-  text-transform: uppercase; letter-spacing: 0.06em;
-}
-.form-group input, .form-group textarea {
-  width: 100%; padding: 0.7rem 1rem;
-  background: var(--off-white);
-  border: 1px solid var(--card-border);
-  border-radius: 9px;
-  color: var(--navy);
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-  outline: none;
-  transition: border-color var(--transition), box-shadow var(--transition);
-  resize: none;
-}
-.form-group input:focus, .form-group textarea:focus {
-  border-color: var(--royal);
-  box-shadow: 0 0 0 3px rgba(22,82,168,0.1);
-  background: white;
-}
-.form-group input::placeholder, .form-group textarea::placeholder { color: var(--mid-gray); }
-.form-submit { width: 100%; justify-content: center; margin-top: 0.3rem; }
-.form-success {
-  margin-top: 1rem; padding: 0.75rem 1rem;
-  background: rgba(22,82,168,0.07);
-  border: 1px solid rgba(22,82,168,0.2);
-  border-radius: 9px;
-  color: var(--royal); font-size: 0.88rem;
-}
-.hidden { display: none !important; }
- 
-/* ═══════════════════ FOOTER ═══════════════════ */
-.footer {
-  background: var(--navy);
-  padding: 2rem 5%;
-  border-top: 1px solid rgba(255,255,255,0.06);
-}
-.footer-inner {
-  max-width: 1180px; margin: 0 auto;
-  display: flex; align-items: center; justify-content: space-between;
-  gap: 1rem; flex-wrap: wrap;
-}
-.footer-brand {
-  display: flex; align-items: center; gap: 0.8rem;
-  font-size: 0.85rem; color: rgba(255,255,255,0.4);
-}
-.footer-brand strong { color: white; display: block; }
-.footer-brand small { font-size: 0.75rem; }
-.footer-copy { font-size: 0.8rem; color: rgba(255,255,255,0.3); }
-.footer-links { display: flex; gap: 1rem; }
-.footer-links a { color: rgba(255,255,255,0.4); text-decoration: none; font-size: 0.82rem; transition: color var(--transition); }
-.footer-links a:hover { color: var(--crimson); }
- 
-/* Back to Top */
-.back-top {
-  position: fixed; bottom: 2rem; right: 2rem;
-  width: 42px; height: 42px;
-  background: var(--crimson);
-  color: white;
-  border: none; border-radius: 12px;
-  font-size: 0.9rem; cursor: pointer;
-  box-shadow: 0 4px 20px rgba(217,79,46,0.4);
-  opacity: 0; pointer-events: none;
-  transition: opacity var(--transition), transform var(--transition);
-  z-index: 500;
-}
-.back-top.visible { opacity: 1; pointer-events: auto; }
-.back-top:hover { transform: translateY(-3px); }
- 
-/* ═══════════════════ REVEAL ANIMATIONS ═══════════════════ */
-.reveal, .reveal-left, .reveal-right {
-  opacity: 0;
-  transition: opacity 0.7s ease, transform 0.7s ease;
-}
-.reveal { transform: translateY(30px); }
-.reveal-left { transform: translateX(-30px); }
-.reveal-right { transform: translateX(30px); }
-.reveal.visible, .reveal-left.visible, .reveal-right.visible {
-  opacity: 1; transform: none;
-}
- 
-/* ═══════════════════ RESPONSIVE ═══════════════════ */
-@media (max-width: 1024px) {
-  .hero-content { grid-template-columns: 1fr; text-align: center; }
-  .hero-photo-wrap { order: -1; }
-  .hero-stats, .hero-actions { justify-content: center; }
-  .f-badge-1, .f-badge-2 { left: auto; right: -14%; }
-  .f-badge-3 { right: -18%; }
-  .research-grid { grid-template-columns: repeat(2, 1fr); }
-  .metrics-grid { grid-template-columns: repeat(2, 1fr); }
-  .about-grid { grid-template-columns: 1fr; }
-  .contact-grid { grid-template-columns: 1fr; }
-}
- 
-@media (max-width: 768px) {
-  .nav-links { display: none; }
-  .menu-toggle { display: block; }
-  .research-grid { grid-template-columns: 1fr; }
-  .metrics-grid { grid-template-columns: repeat(2, 1fr); }
-  .form-row { grid-template-columns: 1fr; }
-  .hero-title { font-size: 2.4rem; }
-  .hero-stats { gap: 0.8rem; }
-  .stat-pill { padding: 0.55rem 0.9rem; }
-  .float-badge { display: none; }
-  .footer-inner { flex-direction: column; text-align: center; }
-  .footer-links { justify-content: center; }
-  .section-pad { padding: 60px 5%; }
-}
- 
-@media (max-width: 480px) {
-  .metrics-grid { grid-template-columns: 1fr 1fr; }
-  .hero-actions { flex-direction: column; align-items: center; }
-}
- 
+      <div class="research-card reveal" data-delay="200">
+        <div class="rc-icon-wrap" style="--rc-color: #5ce7b0;">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h3>Artificial Intelligence</h3>
+        <p>Machine learning, ensemble learning, and deep learning applications for healthcare, blockchain analytics, and cybersecurity.</p>
+        <div class="rc-tags">
+          <span>ML</span><span>Ensemble</span><span>Healthcare AI</span>
+        </div>
+      </div>
+
+      <div class="research-card reveal" data-delay="300">
+        <div class="rc-icon-wrap" style="--rc-color: #e05fff;">
+          <i class="fas fa-dna"></i>
+        </div>
+        <h3>Computational Intelligence</h3>
+        <p>Swarm intelligence, genetic algorithms, particle swarm optimization, and nature-inspired techniques for complex optimization problems.</p>
+        <div class="rc-tags">
+          <span>Swarm AI</span><span>Genetic Algo</span><span>PSO</span>
+        </div>
+      </div>
+
+      <div class="research-card reveal" data-delay="400">
+        <div class="rc-icon-wrap" style="--rc-color: #ff7052;">
+          <i class="fas fa-link"></i>
+        </div>
+        <h3>Blockchain Technology</h3>
+        <p>Secure blockchain-based cyber-physical systems, transaction classification using feature engineering and ensemble learning.</p>
+        <div class="rc-tags">
+          <span>Blockchain</span><span>Cyber-Physical</span><span>Security</span>
+        </div>
+      </div>
+
+      <div class="research-card reveal" data-delay="500">
+        <div class="rc-icon-wrap" style="--rc-color: #38d9f5;">
+          <i class="fas fa-heartbeat"></i>
+        </div>
+        <h3>Smart Healthcare</h3>
+        <p>Intelligent monitoring and prediction systems for diseases like Parkinson's in smart city environments.</p>
+        <div class="rc-tags">
+          <span>Smart Cities</span><span>Parkinson's</span><span>IoMT</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ PUBLICATIONS ═══════════════════ -->
+<section id="publications" class="publications section-pad">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Scholarly Work</span>
+      <h2 class="section-title">Publications</h2>
+      <div class="title-underline"></div>
+    </div>
+
+    <div class="pub-filters">
+      <button class="pub-filter active" data-filter="all">All</button>
+      <button class="pub-filter" data-filter="journal">Journals</button>
+      <button class="pub-filter" data-filter="conference">Conferences</button>
+    </div>
+
+    <div class="pub-list" id="pubList">
+
+      <!-- Journal Publications -->
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2022</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 5.047</span>
+        </div>
+        <h4 class="pub-title">Blockchain based Secure and Reliable Cyber Physical Ecosystem for Vaccine Supply Chain</h4>
+        <p class="pub-authors">M. Sreenu, Nitin Gupta, <strong>Chandrashekar Jatoth</strong>, Aldosary Saad, Abdullah Alharbi, Lewis Nkenyereye</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Computer Communications</em>, Elsevier, Vol.191, pp.173-183</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2022</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 3.503</span>
+        </div>
+        <h4 class="pub-title">Effective monitoring and prediction of Parkinson disease in Smart Cities using intelligent health care system</h4>
+        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, E Neelima, AVR Mayuri, SR Annaluri</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Microprocessors and Microsystems</em>, Elsevier, Vol.92, pp.104547</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2021</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">MDPI</span>
+        </div>
+        <h4 class="pub-title">Improved Classification of Blockchain Transactions Using Feature Engineering and Ensemble Learning</h4>
+        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, Rishabh Jain, Ugo Fiore, Subrahmanyam Chatharasupalli</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Internet</em>, MDPI, Vol.14, No.1</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2021</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 3.818</span>
+        </div>
+        <h4 class="pub-title">Quality-aware Energy Efficient Scheduling Model for Fog Computing Comprised IoT Network</h4>
+        <p class="pub-authors">Narayana Potu, Sreedhar Bhukya, <strong>Chandrashekar Jatoth</strong>, Premchand Parvataneni</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Computers and Electrical Engineering</em>, Elsevier, Vol.97, pp.107603</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2021</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 3.643</span>
+        </div>
+        <h4 class="pub-title">An efficient chaotic salp swarm optimization approach based on ensemble algorithm for class imbalance problems</h4>
+        <p class="pub-authors">Rekha Gillala, Krishna Reddy Vuyyuru, <strong>Chandrashekar Jatoth</strong>, Ugo Fiore</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Soft Computing</em>, Springer</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2021</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 1.536</span>
+        </div>
+        <h4 class="pub-title">QoS-aware Big Service Composition using Distributed Co-Evolutionary Algorithm</h4>
+        <p class="pub-authors">Avik Dutta, <strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, U Fiore</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Concurrency and Computation Practice and Experience</em>, Wiley</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2021</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 1.536</span>
+        </div>
+        <h4 class="pub-title">Optimizing resource scheduling based on extended particle swarm optimization in fog computing environments</h4>
+        <p class="pub-authors">Narayana Potu, <strong>Chandrashekar Jatoth</strong>, Premchand Parvataneni</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Concurrency and Computation Practice and Experience</em>, Wiley, PP. e6163</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2019</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 1.447</span>
+        </div>
+        <h4 class="pub-title">A MapReduce‐based modified Grey Wolf optimizer for QoS‐aware big service composition</h4>
+        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Concurrency and Computation Practice and Experience</em>, Wiley, Vol.32, No.8, PP.e5351</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2019</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 6.330</span>
+        </div>
+        <h4 class="pub-title">Optimal fitness aware cloud service composition using modified invasive weed optimization</h4>
+        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Swarm and Evolutionary Computation</em>, Elsevier, Vol.44, PP.1073-1091</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2019</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 5.768</span>
+        </div>
+        <h4 class="pub-title">Optimal fitness aware cloud service composition using an adaptive genotypes evolution based genetic algorithm</h4>
+        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Rajkumar Buyya</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Generation Computer Systems</em>, Elsevier, Vol.94, pp.185-198</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2019</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 5.768</span>
+        </div>
+        <h4 class="pub-title">QoS-aware Cloud Service Composition using Eagle Strategy</h4>
+        <p class="pub-authors">G Siva Kumar, <strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Rajkumar Buyya</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Generation Computer Systems</em>, Elsevier, Vol.90, pp.273-290</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2019</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 2.784</span>
+        </div>
+        <h4 class="pub-title">SELCLOUD: A Hybrid Multi-Criteria Decision Making Model for Selection of Cloud Services</h4>
+        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore, Rajkumar Buyya</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Soft Computing</em>, Springer, Vol.23, No.13, pp.4701-4715</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2018</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 5.768</span>
+        </div>
+        <h4 class="pub-title">QoS aware Big Service composition using MapReduce based Evolutionary Algorithm with Guided Mutation</h4>
+        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore, Rajkumar Buyya</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Generation Computer Systems</em>, Elsevier, Vol.86, pp.1008-1018</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2016</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 2.784</span>
+        </div>
+        <h4 class="pub-title">Evaluating the efficiency of cloud services using modified data envelopment analysis and modified super-efficiency data envelopment analysis</h4>
+        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Soft Computing</em>, Springer, Vol.21, No.23, pp.7221-7234</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="journal">
+        <div class="pub-meta">
+          <span class="pub-year">2016</span>
+          <span class="pub-type journal-tag">Journal</span>
+          <span class="pub-if">IF: 3.520</span>
+        </div>
+        <h4 class="pub-title">Computational intelligence based QoS-aware web service composition: A systematic literature review</h4>
+        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Rajkumar Buyya</p>
+        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>IEEE Transactions on Services Computing</em>, IEEE, Vol.10, No.3, pp.475-492</p>
+      </div>
+
+      <!-- Conference Publications -->
+      <div class="pub-item reveal" data-type="conference">
+        <div class="pub-meta">
+          <span class="pub-year">2015</span>
+          <span class="pub-type conf-tag">Conference</span>
+          <span class="pub-if">Springer</span>
+        </div>
+        <h4 class="pub-title">QoS-aware Web Service Composition Using Quantum Inspired Particle Swarm Optimization</h4>
+        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan</p>
+        <p class="pub-venue"><i class="fas fa-microphone-alt"></i> <em>KES-IDT 2015</em>, Sorrento, Italy, pp.255-265, Springer</p>
+      </div>
+
+      <div class="pub-item reveal" data-type="conference">
+        <div class="pub-meta">
+          <span class="pub-year">2015</span>
+          <span class="pub-type conf-tag">Conference</span>
+          <span class="pub-if">Springer</span>
+        </div>
+        <h4 class="pub-title">Fitness Metrics for QoS-Aware Web Service Composition Using Metaheuristics</h4>
+        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan</p>
+        <p class="pub-venue"><i class="fas fa-microphone-alt"></i> <em>KES-IDT 2015</em>, Sorrento, Italy, pp.267-277, Springer</p>
+      </div>
+
+    </div><!-- /pub-list -->
+  </div>
+</section>
+
+<!-- ═══════════════════ EXPERIENCE ═══════════════════ -->
+<section id="experience" class="experience section-pad">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Career Journey</span>
+      <h2 class="section-title">Experience</h2>
+      <div class="title-underline"></div>
+    </div>
+
+    <div class="exp-tabs">
+      <button class="exp-tab active" data-tab="academic">Academic</button>
+      <button class="exp-tab" data-tab="admin">Administrative</button>
+    </div>
+
+    <div class="timeline" id="academicTimeline">
+      <div class="tl-item reveal">
+        <div class="tl-dot current"></div>
+        <div class="tl-content">
+          <div class="tl-period">August 2021 – Present</div>
+          <h4 class="tl-role">Assistant Professor (Gr-II)</h4>
+          <p class="tl-org"><i class="fas fa-university"></i> NIT Raipur, Chhattisgarh, India</p>
+          <p class="tl-desc">Teaching and research in Information Technology. Active contributions to curriculum, research supervision, and departmental activities.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-period">December 2018 – July 2021</div>
+          <h4 class="tl-role">Assistant Professor (Gr-II)</h4>
+          <p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur, Himachal Pradesh, India</p>
+          <p class="tl-desc">Contributed to teaching, administrative roles including examinations, NAD, and Digital India initiatives.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-period">July 2018 – December 2018</div>
+          <h4 class="tl-role">Associate Professor</h4>
+          <p class="tl-org"><i class="fas fa-school"></i> Sreenidhi Institute of Science & Technology, Hyderabad</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-period">June 2017 – August 2018</div>
+          <h4 class="tl-role">Associate Professor</h4>
+          <p class="tl-org"><i class="fas fa-school"></i> Koneru Lakshmaiah Education Foundation, Hyderabad</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot research-dot"></div>
+        <div class="tl-content">
+          <div class="tl-period">March 2013 – December 2017</div>
+          <h4 class="tl-role">Research Fellow</h4>
+          <p class="tl-org"><i class="fas fa-landmark"></i> IDRBT (Established by Reserve Bank of India), Hyderabad</p>
+          <p class="tl-desc">Conducted advanced research in cloud computing and AI at India's premier banking technology research institute, established by the Reserve Bank of India.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline hidden" id="adminTimeline">
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-period">April 2019 – December 2019</div>
+          <h4 class="tl-role">Asst. Faculty In-charge – Examinations & Evaluation</h4>
+          <p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-period">May 2019 – July 2021</div>
+          <h4 class="tl-role">Asst. Faculty In-charge – National Academic Depository (NAD)</h4>
+          <p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-period">April 2019 – August 2020</div>
+          <h4 class="tl-role">Asst. Nodal Officer – Digital India</h4>
+          <p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-period">May 2020 – August 2020</div>
+          <h4 class="tl-role">Assistant Warden – Kailash Boys Hostel</h4>
+          <p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════ METRICS ═══════════════════ -->
+<section class="metrics section-pad">
+  <div class="container">
+    <div class="metrics-grid">
+      <div class="metric-card reveal">
+        <div class="metric-icon"><i class="fas fa-file-alt"></i></div>
+        <div class="metric-num" data-target="15">0</div>
+        <div class="metric-label">Total Publications</div>
+      </div>
+      <div class="metric-card reveal">
+        <div class="metric-icon"><i class="fas fa-award"></i></div>
+        <div class="metric-num" data-target="6">0</div>
+        <div class="metric-label">High Impact (IF 3+)</div>
+      </div>
+      <div class="metric-card reveal">
+        <div class="metric-icon"><i class="fas fa-briefcase"></i></div>
+        <div class="metric-num" data-target="10">0</div>
+        <div class="metric-label">Years Experience</div>
+      </div>
+      <div class="metric-card reveal">
+        <div class="metric-icon"><i class="fas fa-users"></i></div>
+        <div class="metric-num" data-target="20">0</div>
+        <div class="metric-label">Co-Authors Worldwide</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ CONTACT ═══════════════════ -->
+<section id="contact" class="contact section-pad">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Let's Connect</span>
+      <h2 class="section-title">Contact</h2>
+      <div class="title-underline"></div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal-left">
+        <h3>Get in Touch</h3>
+        <p>I welcome collaborations, research discussions, and academic inquiries. Feel free to reach out via email or phone.</p>
+
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <span class="ci-label">Official Email</span>
+              <a href="mailto:jchandrashekar.it@nitrr.ac.in" class="ci-value">jchandrashekar.it@nitrr.ac.in</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-envelope-open"></i></div>
+            <div>
+              <span class="ci-label">Personal Email</span>
+              <a href="mailto:chandrashekar.jatoth@gmail.com" class="ci-value">chandrashekar.jatoth@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <span class="ci-label">Phone</span>
+              <a href="tel:+918897741409" class="ci-value">+91-8897741409</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-map-pin"></i></div>
+            <div>
+              <span class="ci-label">Address</span>
+              <span class="ci-value">Dept. of IT, NIT Raipur,<br/>Chhattisgarh – 492010, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal-right">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Your Name</label>
+              <input type="text" id="fname" placeholder="Dr. / Prof. / Mr. / Ms." required/>
+            </div>
+            <div class="form-group">
+              <label for="femail">Email Address</label>
+              <input type="email" id="femail" placeholder="you@institution.edu" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" placeholder="Research Collaboration / Academic Query" required/>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-submit">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-success hidden" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent! Dr. Jatoth will respond soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-initials">CJ</span>
+      <div>
+        <strong>Dr. Chandrashekar Jatoth</strong><br/>
+        <small>Assistant Professor · NIT Raipur</small>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Dr. Chandrashekar Jatoth. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-top" id="backTop"><i class="fas fa-chevron-up"></i></button>
+
+<script src="main.js"></script>
+</body>
+</html>
