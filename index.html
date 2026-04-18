@@ -9,35 +9,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
-
-<!-- ═══════════════════ PRELOADER ═══════════════════ -->
-<div id="preloader">
-  <div class="loader-ring"></div>
-  <span class="loader-text">Loading Portfolio</span>
-</div>
-
-<!-- ═══════════════════ CURSOR ═══════════════════ -->
+<div id="preloader"><div class="loader-ring"></div><span class="loader-text">Loading Portfolio</span></div>
 <div class="cursor-dot" id="cursorDot"></div>
 <div class="cursor-ring" id="cursorRing"></div>
 
-<!-- ═══════════════════ NAVBAR ═══════════════════ -->
 <nav id="navbar">
-  <div class="nav-brand">
-    <span class="brand-initials">CJ</span>
-    <span class="brand-name">Dr. C. Jatoth</span>
-  </div>
+  <div class="nav-brand"><span class="brand-initials">CJ</span><span class="brand-name">Dr. C. Jatoth</span></div>
   <ul class="nav-links">
     <li><a href="#home" class="nav-link active">Home</a></li>
     <li><a href="#about" class="nav-link">About</a></li>
     <li><a href="#research" class="nav-link">Research</a></li>
     <li><a href="#publications" class="nav-link">Publications</a></li>
     <li><a href="#experience" class="nav-link">Experience</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
     <li><a href="#contact" class="nav-link">Contact</a></li>
   </ul>
   <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
 </nav>
 
-<!-- Mobile Menu -->
 <div class="mobile-menu" id="mobileMenu">
   <button class="close-menu" id="closeMenu"><i class="fas fa-times"></i></button>
   <ul>
@@ -46,749 +35,366 @@
     <li><a href="#research" class="mob-link">Research</a></li>
     <li><a href="#publications" class="mob-link">Publications</a></li>
     <li><a href="#experience" class="mob-link">Experience</a></li>
+    <li><a href="#projects" class="mob-link">Projects</a></li>
     <li><a href="#contact" class="mob-link">Contact</a></li>
   </ul>
 </div>
 
-<!-- ═══════════════════ HERO ═══════════════════ -->
-
 <section id="home" class="hero">
   <div class="hero-bg-grid"></div>
-  <div class="hero-orbs">
-    <div class="orb orb-1"></div>
-    <div class="orb orb-2"></div>
-    <div class="orb orb-3"></div>
-  </div>
-
+  <div class="hero-orbs"><div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div></div>
   <div class="hero-content">
     <div class="hero-text">
-      <div class="hero-badge reveal">
-        <i class="fas fa-university"></i> NIT Raipur · Information Technology
-      </div>
-      <h1 class="hero-title reveal">
-        Dr. Chandrashekar<br/><span class="highlight-name">Jatoth</span>
-      </h1>
+      <div class="hero-badge reveal"><i class="fas fa-university"></i> NIT Raipur · Information Technology</div>
+      <h1 class="hero-title reveal">Dr. Chandrashekar<br/><span class="highlight-name">Jatoth</span></h1>
       <p class="hero-role reveal">Assistant Professor &amp; Researcher</p>
-      <p class="hero-tagline reveal">
-        Pioneering research in <span class="typed-text" id="typedText"></span><span class="cursor-blink">|</span>
-      </p>
+      <p class="hero-tagline reveal">Pioneering research in <span class="typed-text" id="typedText"></span><span class="cursor-blink">|</span></p>
       <div class="hero-stats reveal">
-        <div class="stat-pill">
-          <span class="stat-num" data-target="15">0</span>+
-          <span class="stat-label">Publications</span>
-        </div>
-        <div class="stat-pill">
-          <span class="stat-num" data-target="10">0</span>+
-          <span class="stat-label">Years Research</span>
-        </div>
-        <div class="stat-pill">
-          <span class="stat-num" data-target="6">0</span>+
-          <span class="stat-label">Impact Factor Journals</span>
-        </div>
+        <div class="stat-pill"><span class="stat-num" data-target="15">0</span>+<span class="stat-label">Publications</span></div>
+        <div class="stat-pill"><span class="stat-num" data-target="10">0</span>+<span class="stat-label">Years Research</span></div>
+        <div class="stat-pill"><span class="stat-num" data-target="6">0</span>+<span class="stat-label">Impact Factor Journals</span></div>
       </div>
       <div class="hero-actions reveal">
         <a href="#publications" class="btn-primary">View Publications <i class="fas fa-arrow-right"></i></a>
         <a href="#contact" class="btn-outline">Get in Touch</a>
       </div>
     </div>
-
     <div class="hero-photo-wrap reveal">
       <div class="photo-frame">
-        <div class="photo-ring ring-1"></div>
-        <div class="photo-ring ring-2"></div>
-        <div class="photo-ring ring-3"></div>
-        <img src="https://djangotestcase.s3.ap-south-1.amazonaws.com/WhatsApp+Image+2026-03-28+at+12.28.56+PM.jpeg" 
-             alt="Dr. Chandrashekar Jatoth" 
-             class="profile-photo"
-             id="profilePhoto"/>
+        <div class="photo-ring ring-1"></div><div class="photo-ring ring-2"></div><div class="photo-ring ring-3"></div>
+        <img src="https://djangotestcase.s3.ap-south-1.amazonaws.com/WhatsApp+Image+2026-03-28+at+12.28.56+PM.jpeg" alt="Dr. Chandrashekar Jatoth" class="profile-photo" id="profilePhoto"/>
         <div class="photo-glow"></div>
       </div>
       <div class="float-badge f-badge-1"><i class="fas fa-cloud"></i> Cloud Computing</div>
       <div class="float-badge f-badge-2"><i class="fas fa-brain"></i> AI Research</div>
-      <div class="float-badge f-badge-3"><i class="fas fa-network-wired"></i> IoT & Fog</div>
+      <div class="float-badge f-badge-3"><i class="fas fa-network-wired"></i> IoT &amp; Fog</div>
     </div>
   </div>
-
-  <div class="scroll-indicator">
-    <span>Scroll</span>
-    <div class="scroll-line"></div>
-  </div>
+  <div class="scroll-indicator"><span>Scroll</span><div class="scroll-line"></div></div>
 </section>
 
-<!-- ═══════════════════ ABOUT ═══════════════════ -->
 <section id="about" class="about section-pad">
   <div class="container">
-    <div class="section-header">
-      <span class="section-tag">Who I Am</span>
-      <h2 class="section-title">About Me</h2>
-      <div class="title-underline"></div>
-    </div>
-
+    <div class="section-header"><span class="section-tag">Who I Am</span><h2 class="section-title">About Me</h2><div class="title-underline"></div></div>
     <div class="about-grid">
       <div class="about-bio reveal-left">
         <p class="bio-lead">A passionate researcher and educator specializing in intelligent computing systems, cloud infrastructure, and AI-driven solutions for real-world problems.</p>
         <p class="bio-text">I hold a Ph.D. from the University of Hyderabad, with an M.Tech in Artificial Intelligence, and have spent over a decade contributing to academia and research institutions including the Reserve Bank of India's technology arm (IDRBT).</p>
         <p class="bio-text">My work spans from QoS-aware cloud service composition to blockchain-based cyber-physical systems, with publications in top Elsevier, Springer, Wiley, and IEEE journals.</p>
-
         <div class="about-contact-chips">
           <a href="mailto:jchandrashekar.it@nitrr.ac.in" class="chip"><i class="fas fa-envelope"></i> jchandrashekar.it@nitrr.ac.in</a>
           <a href="tel:+918897741409" class="chip"><i class="fas fa-phone"></i> +91-8897741409</a>
         </div>
       </div>
-
       <div class="about-details reveal-right">
-        <div class="detail-card">
-          <div class="detail-icon"><i class="fas fa-graduation-cap"></i></div>
-          <div>
-            <h4>Education</h4>
-            <ul class="edu-list">
-              <li><strong>Ph.D.</strong> – University of Hyderabad</li>
-              <li><strong>M.Tech (AI)</strong> – University of Hyderabad</li>
-              <li><strong>B.E.</strong> – Computer Engineering</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="detail-card">
-          <div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div>
-          <div>
-            <h4>Current Position</h4>
-            <p>Assistant Professor (Gr-II)<br/>Department of Information Technology<br/>NIT Raipur, Chhattisgarh, India</p>
-          </div>
-        </div>
-
-        <div class="detail-card">
-          <div class="detail-icon"><i class="fas fa-envelope-open-text"></i></div>
-          <div>
-            <h4>Contact</h4>
-            <p>chandrashekar.jatoth@gmail.com<br/>jchandrashekar.it@nitrr.ac.in<br/>+91-8897741409</p>
-          </div>
-        </div>
+        <div class="detail-card"><div class="detail-icon"><i class="fas fa-graduation-cap"></i></div><div><h4>Education</h4><ul class="edu-list"><li><strong>Ph.D.</strong> – University of Hyderabad</li><li><strong>M.Tech (AI)</strong> – University of Hyderabad</li><li><strong>B.E.</strong> – Computer Engineering</li></ul></div></div>
+        <div class="detail-card"><div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div><div><h4>Current Position</h4><p>Assistant Professor (Gr-II)<br/>Department of Information Technology<br/>NIT Raipur, Chhattisgarh, India</p></div></div>
+        <div class="detail-card"><div class="detail-icon"><i class="fas fa-envelope-open-text"></i></div><div><h4>Contact</h4><p>chandrashekar.jatoth@gmail.com<br/>jchandrashekar.it@nitrr.ac.in<br/>+91-8897741409</p></div></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════ RESEARCH AREAS ═══════════════════ -->
 <section id="research" class="research section-pad">
   <div class="container">
-    <div class="section-header">
-      <span class="section-tag">Expertise</span>
-      <h2 class="section-title">Research Areas</h2>
-      <div class="title-underline"></div>
-    </div>
-
+    <div class="section-header"><span class="section-tag">Expertise</span><h2 class="section-title">Research Areas</h2><div class="title-underline"></div></div>
     <div class="research-grid">
-      <div class="research-card reveal" data-delay="0">
-        <div class="rc-icon-wrap" style="--rc-color: #4f8ef7;">
-          <i class="fas fa-cloud-upload-alt"></i>
-        </div>
-        <h3>Cloud / Fog Computing</h3>
-        <p>QoS-aware service composition, resource scheduling, and cloud service evaluation using evolutionary and meta-heuristic algorithms.</p>
-        <div class="rc-tags">
-          <span>Cloud Services</span><span>Fog IoT</span><span>QoS</span>
-        </div>
-      </div>
-
-      <div class="research-card reveal" data-delay="100">
-        <div class="rc-icon-wrap" style="--rc-color: #e2b96f;">
-          <i class="fas fa-bolt"></i>
-        </div>
-        <h3>Energy Informatics</h3>
-        <p>Energy-efficient scheduling and optimization models for IoT and fog computing environments.</p>
-        <div class="rc-tags">
-          <span>Energy Efficiency</span><span>Scheduling</span><span>IoT</span>
-        </div>
-      </div>
-
-      <div class="research-card reveal" data-delay="200">
-        <div class="rc-icon-wrap" style="--rc-color: #5ce7b0;">
-          <i class="fas fa-brain"></i>
-        </div>
-        <h3>Artificial Intelligence</h3>
-        <p>Machine learning, ensemble learning, and deep learning applications for healthcare, blockchain analytics, and cybersecurity.</p>
-        <div class="rc-tags">
-          <span>ML</span><span>Ensemble</span><span>Healthcare AI</span>
-        </div>
-      </div>
-
-      <div class="research-card reveal" data-delay="300">
-        <div class="rc-icon-wrap" style="--rc-color: #e05fff;">
-          <i class="fas fa-dna"></i>
-        </div>
-        <h3>Computational Intelligence</h3>
-        <p>Swarm intelligence, genetic algorithms, particle swarm optimization, and nature-inspired techniques for complex optimization problems.</p>
-        <div class="rc-tags">
-          <span>Swarm AI</span><span>Genetic Algo</span><span>PSO</span>
-        </div>
-      </div>
-
-      <div class="research-card reveal" data-delay="400">
-        <div class="rc-icon-wrap" style="--rc-color: #ff7052;">
-          <i class="fas fa-link"></i>
-        </div>
-        <h3>Blockchain Technology</h3>
-        <p>Secure blockchain-based cyber-physical systems, transaction classification using feature engineering and ensemble learning.</p>
-        <div class="rc-tags">
-          <span>Blockchain</span><span>Cyber-Physical</span><span>Security</span>
-        </div>
-      </div>
-
-      <div class="research-card reveal" data-delay="500">
-        <div class="rc-icon-wrap" style="--rc-color: #38d9f5;">
-          <i class="fas fa-heartbeat"></i>
-        </div>
-        <h3>Smart Healthcare</h3>
-        <p>Intelligent monitoring and prediction systems for diseases like Parkinson's in smart city environments.</p>
-        <div class="rc-tags">
-          <span>Smart Cities</span><span>Parkinson's</span><span>IoMT</span>
-        </div>
-      </div>
+      <div class="research-card reveal" data-delay="0"><div class="rc-icon-wrap" style="--rc-color:#4f8ef7;"><i class="fas fa-cloud-upload-alt"></i></div><h3>Cloud / Fog Computing</h3><p>QoS-aware service composition, resource scheduling, and cloud service evaluation using evolutionary and meta-heuristic algorithms.</p><div class="rc-tags"><span>Cloud Services</span><span>Fog IoT</span><span>QoS</span></div></div>
+      <div class="research-card reveal" data-delay="100"><div class="rc-icon-wrap" style="--rc-color:#e2b96f;"><i class="fas fa-bolt"></i></div><h3>Energy Informatics</h3><p>Energy-efficient scheduling and optimization models for IoT and fog computing environments.</p><div class="rc-tags"><span>Energy Efficiency</span><span>Scheduling</span><span>IoT</span></div></div>
+      <div class="research-card reveal" data-delay="200"><div class="rc-icon-wrap" style="--rc-color:#5ce7b0;"><i class="fas fa-brain"></i></div><h3>Artificial Intelligence</h3><p>Machine learning, ensemble learning, and deep learning applications for healthcare, blockchain analytics, and cybersecurity.</p><div class="rc-tags"><span>ML</span><span>Ensemble</span><span>Healthcare AI</span></div></div>
+      <div class="research-card reveal" data-delay="300"><div class="rc-icon-wrap" style="--rc-color:#e05fff;"><i class="fas fa-dna"></i></div><h3>Computational Intelligence</h3><p>Swarm intelligence, genetic algorithms, particle swarm optimization, and nature-inspired techniques for complex optimization problems.</p><div class="rc-tags"><span>Swarm AI</span><span>Genetic Algo</span><span>PSO</span></div></div>
+      <div class="research-card reveal" data-delay="400"><div class="rc-icon-wrap" style="--rc-color:#ff7052;"><i class="fas fa-link"></i></div><h3>Blockchain Technology</h3><p>Secure blockchain-based cyber-physical systems, transaction classification using feature engineering and ensemble learning.</p><div class="rc-tags"><span>Blockchain</span><span>Cyber-Physical</span><span>Security</span></div></div>
+      <div class="research-card reveal" data-delay="500"><div class="rc-icon-wrap" style="--rc-color:#38d9f5;"><i class="fas fa-heartbeat"></i></div><h3>Smart Healthcare</h3><p>Intelligent monitoring and prediction systems for diseases like Parkinson's in smart city environments.</p><div class="rc-tags"><span>Smart Cities</span><span>Parkinson's</span><span>IoMT</span></div></div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════ PUBLICATIONS ═══════════════════ -->
 <section id="publications" class="publications section-pad">
   <div class="container">
-    <div class="section-header">
-      <span class="section-tag">Scholarly Work</span>
-      <h2 class="section-title">Publications</h2>
-      <div class="title-underline"></div>
-    </div>
-
+    <div class="section-header"><span class="section-tag">Scholarly Work</span><h2 class="section-title">Publications</h2><div class="title-underline"></div></div>
     <div class="pub-filters">
       <button class="pub-filter active" data-filter="all">All</button>
       <button class="pub-filter" data-filter="journal">Journals</button>
       <button class="pub-filter" data-filter="conference">Conferences</button>
     </div>
-
     <div class="pub-list" id="pubList">
-
-      <!-- Journal Publications -->
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2022</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 5.047</span>
-        </div>
-        <h4 class="pub-title">Blockchain based Secure and Reliable Cyber Physical Ecosystem for Vaccine Supply Chain</h4>
-        <p class="pub-authors">M. Sreenu, Nitin Gupta, <strong>Chandrashekar Jatoth</strong>, Aldosary Saad, Abdullah Alharbi, Lewis Nkenyereye</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Computer Communications</em>, Elsevier, Vol.191, pp.173-183</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2022</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 3.503</span>
-        </div>
-        <h4 class="pub-title">Effective monitoring and prediction of Parkinson disease in Smart Cities using intelligent health care system</h4>
-        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, E Neelima, AVR Mayuri, SR Annaluri</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Microprocessors and Microsystems</em>, Elsevier, Vol.92, pp.104547</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2021</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">MDPI</span>
-        </div>
-        <h4 class="pub-title">Improved Classification of Blockchain Transactions Using Feature Engineering and Ensemble Learning</h4>
-        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, Rishabh Jain, Ugo Fiore, Subrahmanyam Chatharasupalli</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Internet</em>, MDPI, Vol.14, No.1</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2021</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 3.818</span>
-        </div>
-        <h4 class="pub-title">Quality-aware Energy Efficient Scheduling Model for Fog Computing Comprised IoT Network</h4>
-        <p class="pub-authors">Narayana Potu, Sreedhar Bhukya, <strong>Chandrashekar Jatoth</strong>, Premchand Parvataneni</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Computers and Electrical Engineering</em>, Elsevier, Vol.97, pp.107603</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2021</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 3.643</span>
-        </div>
-        <h4 class="pub-title">An efficient chaotic salp swarm optimization approach based on ensemble algorithm for class imbalance problems</h4>
-        <p class="pub-authors">Rekha Gillala, Krishna Reddy Vuyyuru, <strong>Chandrashekar Jatoth</strong>, Ugo Fiore</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Soft Computing</em>, Springer</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2021</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 1.536</span>
-        </div>
-        <h4 class="pub-title">QoS-aware Big Service Composition using Distributed Co-Evolutionary Algorithm</h4>
-        <p class="pub-authors">Avik Dutta, <strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, U Fiore</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Concurrency and Computation Practice and Experience</em>, Wiley</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2021</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 1.536</span>
-        </div>
-        <h4 class="pub-title">Optimizing resource scheduling based on extended particle swarm optimization in fog computing environments</h4>
-        <p class="pub-authors">Narayana Potu, <strong>Chandrashekar Jatoth</strong>, Premchand Parvataneni</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Concurrency and Computation Practice and Experience</em>, Wiley, PP. e6163</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2019</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 1.447</span>
-        </div>
-        <h4 class="pub-title">A MapReduce‐based modified Grey Wolf optimizer for QoS‐aware big service composition</h4>
-        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Concurrency and Computation Practice and Experience</em>, Wiley, Vol.32, No.8, PP.e5351</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2019</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 6.330</span>
-        </div>
-        <h4 class="pub-title">Optimal fitness aware cloud service composition using modified invasive weed optimization</h4>
-        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Swarm and Evolutionary Computation</em>, Elsevier, Vol.44, PP.1073-1091</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2019</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 5.768</span>
-        </div>
-        <h4 class="pub-title">Optimal fitness aware cloud service composition using an adaptive genotypes evolution based genetic algorithm</h4>
-        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Rajkumar Buyya</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Generation Computer Systems</em>, Elsevier, Vol.94, pp.185-198</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2019</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 5.768</span>
-        </div>
-        <h4 class="pub-title">QoS-aware Cloud Service Composition using Eagle Strategy</h4>
-        <p class="pub-authors">G Siva Kumar, <strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Rajkumar Buyya</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Generation Computer Systems</em>, Elsevier, Vol.90, pp.273-290</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2019</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 2.784</span>
-        </div>
-        <h4 class="pub-title">SELCLOUD: A Hybrid Multi-Criteria Decision Making Model for Selection of Cloud Services</h4>
-        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore, Rajkumar Buyya</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Soft Computing</em>, Springer, Vol.23, No.13, pp.4701-4715</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2018</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 5.768</span>
-        </div>
-        <h4 class="pub-title">QoS aware Big Service composition using MapReduce based Evolutionary Algorithm with Guided Mutation</h4>
-        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore, Rajkumar Buyya</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Generation Computer Systems</em>, Elsevier, Vol.86, pp.1008-1018</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2016</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 2.784</span>
-        </div>
-        <h4 class="pub-title">Evaluating the efficiency of cloud services using modified data envelopment analysis and modified super-efficiency data envelopment analysis</h4>
-        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Soft Computing</em>, Springer, Vol.21, No.23, pp.7221-7234</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="journal">
-        <div class="pub-meta">
-          <span class="pub-year">2016</span>
-          <span class="pub-type journal-tag">Journal</span>
-          <span class="pub-if">IF: 3.520</span>
-        </div>
-        <h4 class="pub-title">Computational intelligence based QoS-aware web service composition: A systematic literature review</h4>
-        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Rajkumar Buyya</p>
-        <p class="pub-venue"><i class="fas fa-book-open"></i> <em>IEEE Transactions on Services Computing</em>, IEEE, Vol.10, No.3, pp.475-492</p>
-      </div>
-
-      <!-- Conference Publications -->
-      <div class="pub-item reveal" data-type="conference">
-        <div class="pub-meta">
-          <span class="pub-year">2015</span>
-          <span class="pub-type conf-tag">Conference</span>
-          <span class="pub-if">Springer</span>
-        </div>
-        <h4 class="pub-title">QoS-aware Web Service Composition Using Quantum Inspired Particle Swarm Optimization</h4>
-        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan</p>
-        <p class="pub-venue"><i class="fas fa-microphone-alt"></i> <em>KES-IDT 2015</em>, Sorrento, Italy, pp.255-265, Springer</p>
-      </div>
-
-      <div class="pub-item reveal" data-type="conference">
-        <div class="pub-meta">
-          <span class="pub-year">2015</span>
-          <span class="pub-type conf-tag">Conference</span>
-          <span class="pub-if">Springer</span>
-        </div>
-        <h4 class="pub-title">Fitness Metrics for QoS-Aware Web Service Composition Using Metaheuristics</h4>
-        <p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan</p>
-        <p class="pub-venue"><i class="fas fa-microphone-alt"></i> <em>KES-IDT 2015</em>, Sorrento, Italy, pp.267-277, Springer</p>
-      </div>
-
-      <!-- ===== NEW PUBLICATIONS START ===== -->
-
-<div class="pub-item reveal" data-type="journal">
-  <div class="pub-meta">
-    <span class="pub-year">2026</span>
-    <span class="pub-type journal-tag">Journal</span>
-  </div>
-  <h4 class="pub-title">Fuzzy Logic and Petri Net-Based Modeling for Analyzing Vulnerabilities in Smart Contract Compositions for Vaccine Supply Chain Management</h4>
-  <p class="pub-authors">M Sreenu, N Gupta, <strong>Chandrashekar Jatoth</strong></p>
-  <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Computational Intelligence</em>, 2026</p>
-</div>
-
-<div class="pub-item reveal" data-type="journal">
-  <div class="pub-meta">
-    <span class="pub-year">2026</span>
-    <span class="pub-type journal-tag">Journal</span>
-  </div>
-  <h4 class="pub-title">FedMMIoT: A Federated Learning Framework for Detecting Autism Spectrum Disorders Using Multimodal IoT</h4>
-  <p class="pub-authors">J Lachure, <strong>Chandrashekar Jatoth</strong>, KS Rao</p>
-  <p class="pub-venue"><i class="fas fa-book-open"></i> <em>IEEE Transactions on Consumer Electronics</em>, 2026</p>
-</div>
-
-<div class="pub-item reveal" data-type="journal">
-  <div class="pub-meta">
-    <span class="pub-year">2026</span>
-    <span class="pub-type journal-tag">Journal</span>
-  </div>
-  <h4 class="pub-title">Explainable AI-driven Energy Forecasting using DGMR-based Feature Extraction</h4>
-  <p class="pub-authors">B Swaroopa Rani, <strong>Chandrashekar Jatoth</strong>, S Venu</p>
-  <p class="pub-venue"><i class="fas fa-book-open"></i> <em>2026</em></p>
-</div>
-
-<div class="pub-item reveal" data-type="conference">
-  <div class="pub-meta">
-    <span class="pub-year">2025</span>
-    <span class="pub-type conf-tag">Conference</span>
-  </div>
-  <h4 class="pub-title">Quantum Network Simulators Integration with Open-Source 5G Mobile Stack</h4>
-  <p class="pub-authors">K Majid, S Agarwal, S Das, R Bassoli, FHP Fitzek, <strong>Chandrashekar Jatoth</strong></p>
-  <p class="pub-venue"><i class="fas fa-microphone-alt"></i> <em>IEEE GLOBECOM 2025</em></p>
-</div>
-
-<div class="pub-item reveal" data-type="journal">
-  <div class="pub-meta">
-    <span class="pub-year">2025</span>
-    <span class="pub-type journal-tag">Journal</span>
-  </div>
-  <h4 class="pub-title">Deep Learning and Blockchain-Enabled Predictive Maintenance in Electric Vehicles: A Review</h4>
-  <p class="pub-authors">B Swaroopa Rani, <strong>Chandrashekar Jatoth</strong></p>
-  <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Concurrency and Computation</em>, 2025</p>
-</div>
-
-<div class="pub-item reveal" data-type="conference">
-  <div class="pub-meta">
-    <span class="pub-year">2025</span>
-    <span class="pub-type conf-tag">Conference</span>
-  </div>
-  <h4 class="pub-title">Hierarchical Quantum Backbone: A Scalable Topology for Quantum Networks</h4>
-  <p class="pub-authors">S Priyadarshini, <strong>Chandrashekar Jatoth</strong>, R Doriya</p>
-  <p class="pub-venue"><i class="fas fa-microphone-alt"></i> <em>IEEE Conference 2025</em></p>
-</div>
-
-<div class="pub-item reveal" data-type="journal">
-  <div class="pub-meta">
-    <span class="pub-year">2025</span>
-    <span class="pub-type journal-tag">Journal</span>
-  </div>
-  <h4 class="pub-title">QURE: Quantum-Resistant Encryption Strategies for Confidential Computing</h4>
-  <p class="pub-authors">K Majid, <strong>Chandrashekar Jatoth</strong></p>
-  <p class="pub-venue"><i class="fas fa-book-open"></i> <em>IEEE Future Networks</em>, 2025</p>
-</div>
-
-<div class="pub-item reveal" data-type="journal">
-  <div class="pub-meta">
-    <span class="pub-year">2024</span>
-    <span class="pub-type journal-tag">Journal</span>
-  </div>
-  <h4 class="pub-title">IoV Block Secure: Blockchain-based Secure Data Framework for Internet of Vehicles</h4>
-  <p class="pub-authors">G Madhukar, <strong>Chandrashekar Jatoth</strong>, R Doriya</p>
-  <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Peer-to-Peer Networking</em>, 2024</p>
-</div>
-
-<div class="pub-item reveal" data-type="journal">
-  <div class="pub-meta">
-    <span class="pub-year">2024</span>
-    <span class="pub-type journal-tag">Journal</span>
-  </div>
-  <h4 class="pub-title">Reinforcement Learning and Blockchain-based Vaccine Recommender System</h4>
-  <p class="pub-authors">M Sreenu, N Gupta, <strong>Chandrashekar Jatoth</strong></p>
-  <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Expert Systems</em>, 2024</p>
-</div>
-
-<div class="pub-item reveal" data-type="journal">
-  <div class="pub-meta">
-    <span class="pub-year">2023</span>
-    <span class="pub-type journal-tag">Journal</span>
-  </div>
-  <h4 class="pub-title">Post-Quantum Distributed Ledger Technology: A Systematic Survey</h4>
-  <p class="pub-authors">NK Parida, <strong>Chandrashekar Jatoth</strong></p>
-  <p class="pub-venue"><i class="fas fa-book-open"></i> <em>Scientific Reports</em>, 2023</p>
-</div>
-
-<!-- ===== NEW PUBLICATIONS END ===== -->
-
-    </div><!-- /pub-list -->
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2026</span><span class="pub-type journal-tag">Journal</span></div><h4 class="pub-title">Fuzzy Logic and Petri Net-Based Modeling for Analyzing Vulnerabilities in Smart Contract Compositions for Vaccine Supply Chain Management</h4><p class="pub-authors">M Sreenu, N Gupta, <strong>Chandrashekar Jatoth</strong></p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Computational Intelligence</em>, 2026</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2026</span><span class="pub-type journal-tag">Journal</span></div><h4 class="pub-title">FedMMIoT: A Federated Learning Framework for Detecting Autism Spectrum Disorders Using Multimodal IoT</h4><p class="pub-authors">J Lachure, <strong>Chandrashekar Jatoth</strong>, KS Rao</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>IEEE Transactions on Consumer Electronics</em>, 2026</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2026</span><span class="pub-type journal-tag">Journal</span></div><h4 class="pub-title">Explainable AI-driven Energy Forecasting using DGMR-based Feature Extraction</h4><p class="pub-authors">B Swaroopa Rani, <strong>Chandrashekar Jatoth</strong>, S Venu</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>2026</em></p></div>
+      <div class="pub-item reveal" data-type="conference"><div class="pub-meta"><span class="pub-year">2025</span><span class="pub-type conf-tag">Conference</span></div><h4 class="pub-title">Quantum Network Simulators Integration with Open-Source 5G Mobile Stack</h4><p class="pub-authors">K Majid, S Agarwal, S Das, R Bassoli, FHP Fitzek, <strong>Chandrashekar Jatoth</strong></p><p class="pub-venue"><i class="fas fa-microphone-alt"></i> <em>IEEE GLOBECOM 2025</em></p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2025</span><span class="pub-type journal-tag">Journal</span></div><h4 class="pub-title">Deep Learning and Blockchain-Enabled Predictive Maintenance in Electric Vehicles: A Review</h4><p class="pub-authors">B Swaroopa Rani, <strong>Chandrashekar Jatoth</strong></p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Concurrency and Computation</em>, 2025</p></div>
+      <div class="pub-item reveal" data-type="conference"><div class="pub-meta"><span class="pub-year">2025</span><span class="pub-type conf-tag">Conference</span></div><h4 class="pub-title">Hierarchical Quantum Backbone: A Scalable Topology for Quantum Networks</h4><p class="pub-authors">S Priyadarshini, <strong>Chandrashekar Jatoth</strong>, R Doriya</p><p class="pub-venue"><i class="fas fa-microphone-alt"></i> <em>IEEE Conference 2025</em></p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2025</span><span class="pub-type journal-tag">Journal</span></div><h4 class="pub-title">QURE: Quantum-Resistant Encryption Strategies for Confidential Computing</h4><p class="pub-authors">K Majid, <strong>Chandrashekar Jatoth</strong></p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>IEEE Future Networks</em>, 2025</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2024</span><span class="pub-type journal-tag">Journal</span></div><h4 class="pub-title">IoV Block Secure: Blockchain-based Secure Data Framework for Internet of Vehicles</h4><p class="pub-authors">G Madhukar, <strong>Chandrashekar Jatoth</strong>, R Doriya</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Peer-to-Peer Networking</em>, 2024</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2024</span><span class="pub-type journal-tag">Journal</span></div><h4 class="pub-title">Reinforcement Learning and Blockchain-based Vaccine Recommender System</h4><p class="pub-authors">M Sreenu, N Gupta, <strong>Chandrashekar Jatoth</strong></p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Expert Systems</em>, 2024</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2023</span><span class="pub-type journal-tag">Journal</span></div><h4 class="pub-title">Post-Quantum Distributed Ledger Technology: A Systematic Survey</h4><p class="pub-authors">NK Parida, <strong>Chandrashekar Jatoth</strong></p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Scientific Reports</em>, 2023</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2022</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 5.047</span></div><h4 class="pub-title">Blockchain based Secure and Reliable Cyber Physical Ecosystem for Vaccine Supply Chain</h4><p class="pub-authors">M. Sreenu, Nitin Gupta, <strong>Chandrashekar Jatoth</strong>, Aldosary Saad, Abdullah Alharbi, Lewis Nkenyereye</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Computer Communications</em>, Elsevier, Vol.191, pp.173-183</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2022</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 3.503</span></div><h4 class="pub-title">Effective monitoring and prediction of Parkinson disease in Smart Cities using intelligent health care system</h4><p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, E Neelima, AVR Mayuri, SR Annaluri</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Microprocessors and Microsystems</em>, Elsevier, Vol.92, pp.104547</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2021</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">MDPI</span></div><h4 class="pub-title">Improved Classification of Blockchain Transactions Using Feature Engineering and Ensemble Learning</h4><p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, Rishabh Jain, Ugo Fiore, Subrahmanyam Chatharasupalli</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Internet</em>, MDPI, Vol.14, No.1</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2021</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 3.818</span></div><h4 class="pub-title">Quality-aware Energy Efficient Scheduling Model for Fog Computing Comprised IoT Network</h4><p class="pub-authors">Narayana Potu, Sreedhar Bhukya, <strong>Chandrashekar Jatoth</strong>, Premchand Parvataneni</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Computers and Electrical Engineering</em>, Elsevier, Vol.97, pp.107603</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2021</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 3.643</span></div><h4 class="pub-title">An efficient chaotic salp swarm optimization approach based on ensemble algorithm for class imbalance problems</h4><p class="pub-authors">Rekha Gillala, Krishna Reddy Vuyyuru, <strong>Chandrashekar Jatoth</strong>, Ugo Fiore</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Soft Computing</em>, Springer</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2021</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 1.536</span></div><h4 class="pub-title">QoS-aware Big Service Composition using Distributed Co-Evolutionary Algorithm</h4><p class="pub-authors">Avik Dutta, <strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, U Fiore</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Concurrency and Computation Practice and Experience</em>, Wiley</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2021</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 1.536</span></div><h4 class="pub-title">Optimizing resource scheduling based on extended particle swarm optimization in fog computing environments</h4><p class="pub-authors">Narayana Potu, <strong>Chandrashekar Jatoth</strong>, Premchand Parvataneni</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Concurrency and Computation Practice and Experience</em>, Wiley, PP. e6163</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2019</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 6.330</span></div><h4 class="pub-title">Optimal fitness aware cloud service composition using modified invasive weed optimization</h4><p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Swarm and Evolutionary Computation</em>, Elsevier, Vol.44, PP.1073-1091</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2019</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 5.768</span></div><h4 class="pub-title">Optimal fitness aware cloud service composition using an adaptive genotypes evolution based genetic algorithm</h4><p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Rajkumar Buyya</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Generation Computer Systems</em>, Elsevier, Vol.94, pp.185-198</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2019</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 5.768</span></div><h4 class="pub-title">QoS-aware Cloud Service Composition using Eagle Strategy</h4><p class="pub-authors">G Siva Kumar, <strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Rajkumar Buyya</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Generation Computer Systems</em>, Elsevier, Vol.90, pp.273-290</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2019</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 2.784</span></div><h4 class="pub-title">SELCLOUD: A Hybrid Multi-Criteria Decision Making Model for Selection of Cloud Services</h4><p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore, Rajkumar Buyya</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Soft Computing</em>, Springer, Vol.23, No.13, pp.4701-4715</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2019</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 1.447</span></div><h4 class="pub-title">A MapReduce-based modified Grey Wolf optimizer for QoS-aware big service composition</h4><p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Concurrency and Computation Practice and Experience</em>, Wiley, Vol.32, No.8, PP.e5351</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2018</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 5.768</span></div><h4 class="pub-title">QoS aware Big Service composition using MapReduce based Evolutionary Algorithm with Guided Mutation</h4><p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore, Rajkumar Buyya</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Future Generation Computer Systems</em>, Elsevier, Vol.86, pp.1008-1018</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2016</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 3.520</span></div><h4 class="pub-title">Computational intelligence based QoS-aware web service composition: A systematic literature review</h4><p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Rajkumar Buyya</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>IEEE Transactions on Services Computing</em>, IEEE, Vol.10, No.3, pp.475-492</p></div>
+      <div class="pub-item reveal" data-type="journal"><div class="pub-meta"><span class="pub-year">2016</span><span class="pub-type journal-tag">Journal</span><span class="pub-if">IF: 2.784</span></div><h4 class="pub-title">Evaluating the efficiency of cloud services using modified data envelopment analysis and modified super-efficiency data envelopment analysis</h4><p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan, Ugo Fiore</p><p class="pub-venue"><i class="fas fa-book-open"></i> <em>Soft Computing</em>, Springer, Vol.21, No.23, pp.7221-7234</p></div>
+      <div class="pub-item reveal" data-type="conference"><div class="pub-meta"><span class="pub-year">2015</span><span class="pub-type conf-tag">Conference</span><span class="pub-if">Springer</span></div><h4 class="pub-title">QoS-aware Web Service Composition Using Quantum Inspired Particle Swarm Optimization</h4><p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan</p><p class="pub-venue"><i class="fas fa-microphone-alt"></i> <em>KES-IDT 2015</em>, Sorrento, Italy, pp.255-265, Springer</p></div>
+      <div class="pub-item reveal" data-type="conference"><div class="pub-meta"><span class="pub-year">2015</span><span class="pub-type conf-tag">Conference</span><span class="pub-if">Springer</span></div><h4 class="pub-title">Fitness Metrics for QoS-Aware Web Service Composition Using Metaheuristics</h4><p class="pub-authors"><strong>Chandrashekar Jatoth</strong>, G.R. Gangadharan</p><p class="pub-venue"><i class="fas fa-microphone-alt"></i> <em>KES-IDT 2015</em>, Sorrento, Italy, pp.267-277, Springer</p></div>
+    </div>
   </div>
 </section>
 
-<!-- ═══════════════════ EXPERIENCE ═══════════════════ -->
 <section id="experience" class="experience section-pad">
   <div class="container">
-    <div class="section-header">
-      <span class="section-tag">Career Journey</span>
-      <h2 class="section-title">Experience</h2>
-      <div class="title-underline"></div>
-    </div>
-
+    <div class="section-header"><span class="section-tag">Career Journey</span><h2 class="section-title">Experience</h2><div class="title-underline"></div></div>
     <div class="exp-tabs">
       <button class="exp-tab active" data-tab="academic">Academic</button>
       <button class="exp-tab" data-tab="admin">Administrative</button>
     </div>
-
     <div class="timeline" id="academicTimeline">
-      <div class="tl-item reveal">
-        <div class="tl-dot current"></div>
-        <div class="tl-content">
-          <div class="tl-period">August 2021 – Present</div>
-          <h4 class="tl-role">Assistant Professor (Gr-II)</h4>
-          <p class="tl-org"><i class="fas fa-university"></i> NIT Raipur, Chhattisgarh, India</p>
-          <p class="tl-desc">Teaching and research in Information Technology. Active contributions to curriculum, research supervision, and departmental activities.</p>
-        </div>
-      </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot"></div>
-        <div class="tl-content">
-          <div class="tl-period">December 2018 – July 2021</div>
-          <h4 class="tl-role">Assistant Professor (Gr-II)</h4>
-          <p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur, Himachal Pradesh, India</p>
-          <p class="tl-desc">Contributed to teaching, administrative roles including examinations, NAD, and Digital India initiatives.</p>
-        </div>
-      </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot"></div>
-        <div class="tl-content">
-          <div class="tl-period">July 2018 – December 2018</div>
-          <h4 class="tl-role">Associate Professor</h4>
-          <p class="tl-org"><i class="fas fa-school"></i> Sreenidhi Institute of Science & Technology, Hyderabad</p>
-        </div>
-      </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot"></div>
-        <div class="tl-content">
-          <div class="tl-period">June 2017 – August 2018</div>
-          <h4 class="tl-role">Associate Professor</h4>
-          <p class="tl-org"><i class="fas fa-school"></i> Koneru Lakshmaiah Education Foundation, Hyderabad</p>
-        </div>
-      </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot research-dot"></div>
-        <div class="tl-content">
-          <div class="tl-period">March 2013 – December 2017</div>
-          <h4 class="tl-role">Research Fellow</h4>
-          <p class="tl-org"><i class="fas fa-landmark"></i> IDRBT (Established by Reserve Bank of India), Hyderabad</p>
-          <p class="tl-desc">Conducted advanced research in cloud computing and AI at India's premier banking technology research institute, established by the Reserve Bank of India.</p>
-        </div>
-      </div>
+      <div class="tl-item reveal"><div class="tl-dot current"></div><div class="tl-content"><div class="tl-period">August 2021 – Present</div><h4 class="tl-role">Assistant Professor (Gr-II)</h4><p class="tl-org"><i class="fas fa-university"></i> NIT Raipur, Chhattisgarh, India</p><p class="tl-desc">Teaching and research in Information Technology. Active contributions to curriculum, research supervision, and departmental activities.</p></div></div>
+      <div class="tl-item reveal"><div class="tl-dot"></div><div class="tl-content"><div class="tl-period">December 2018 – July 2021</div><h4 class="tl-role">Assistant Professor (Gr-II)</h4><p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur, Himachal Pradesh, India</p><p class="tl-desc">Contributed to teaching, administrative roles including examinations, NAD, and Digital India initiatives.</p></div></div>
+      <div class="tl-item reveal"><div class="tl-dot"></div><div class="tl-content"><div class="tl-period">July 2018 – December 2018</div><h4 class="tl-role">Associate Professor</h4><p class="tl-org"><i class="fas fa-school"></i> Sreenidhi Institute of Science &amp; Technology, Hyderabad</p></div></div>
+      <div class="tl-item reveal"><div class="tl-dot"></div><div class="tl-content"><div class="tl-period">June 2017 – August 2018</div><h4 class="tl-role">Associate Professor</h4><p class="tl-org"><i class="fas fa-school"></i> Koneru Lakshmaiah Education Foundation, Hyderabad</p></div></div>
+      <div class="tl-item reveal"><div class="tl-dot research-dot"></div><div class="tl-content"><div class="tl-period">March 2013 – December 2017</div><h4 class="tl-role">Research Fellow</h4><p class="tl-org"><i class="fas fa-landmark"></i> IDRBT (Established by Reserve Bank of India), Hyderabad</p><p class="tl-desc">Conducted advanced research in cloud computing and AI at India's premier banking technology research institute.</p></div></div>
     </div>
-
     <div class="timeline hidden" id="adminTimeline">
-      <div class="tl-item reveal">
-        <div class="tl-dot"></div>
-        <div class="tl-content">
-          <div class="tl-period">April 2019 – December 2019</div>
-          <h4 class="tl-role">Asst. Faculty In-charge – Examinations & Evaluation</h4>
-          <p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p>
-        </div>
-      </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot"></div>
-        <div class="tl-content">
-          <div class="tl-period">May 2019 – July 2021</div>
-          <h4 class="tl-role">Asst. Faculty In-charge – National Academic Depository (NAD)</h4>
-          <p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p>
-        </div>
-      </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot"></div>
-        <div class="tl-content">
-          <div class="tl-period">April 2019 – August 2020</div>
-          <h4 class="tl-role">Asst. Nodal Officer – Digital India</h4>
-          <p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p>
-        </div>
-      </div>
-      <div class="tl-item reveal">
-        <div class="tl-dot"></div>
-        <div class="tl-content">
-          <div class="tl-period">May 2020 – August 2020</div>
-          <h4 class="tl-role">Assistant Warden – Kailash Boys Hostel</h4>
-          <p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ═══════════════════ METRICS ═══════════════════ -->
-<section class="metrics section-pad">
-  <div class="container">
-    <div class="metrics-grid">
-      <div class="metric-card reveal">
-        <div class="metric-icon"><i class="fas fa-file-alt"></i></div>
-        <div class="metric-num" data-target="27">0</div>
-        <div class="metric-label">Total Publications</div>
-      </div>
-      <div class="metric-card reveal">
-        <div class="metric-icon"><i class="fas fa-award"></i></div>
-        <div class="metric-num" data-target="6">0</div>
-        <div class="metric-label">High Impact (IF 3+)</div>
-      </div>
-      <div class="metric-card reveal">
-        <div class="metric-icon"><i class="fas fa-briefcase"></i></div>
-        <div class="metric-num" data-target="10">0</div>
-        <div class="metric-label">Years Experience</div>
-      </div>
-      <div class="metric-card reveal">
-        <div class="metric-icon"><i class="fas fa-users"></i></div>
-        <div class="metric-num" data-target="20">0</div>
-        <div class="metric-label">Co-Authors Worldwide</div>
-      </div>
+      <div class="tl-item reveal"><div class="tl-dot"></div><div class="tl-content"><div class="tl-period">April 2019 – December 2019</div><h4 class="tl-role">Asst. Faculty In-charge – Examinations &amp; Evaluation</h4><p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p></div></div>
+      <div class="tl-item reveal"><div class="tl-dot"></div><div class="tl-content"><div class="tl-period">May 2019 – July 2021</div><h4 class="tl-role">Asst. Faculty In-charge – National Academic Depository (NAD)</h4><p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p></div></div>
+      <div class="tl-item reveal"><div class="tl-dot"></div><div class="tl-content"><div class="tl-period">April 2019 – August 2020</div><h4 class="tl-role">Asst. Nodal Officer – Digital India</h4><p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p></div></div>
+      <div class="tl-item reveal"><div class="tl-dot"></div><div class="tl-content"><div class="tl-period">May 2020 – August 2020</div><h4 class="tl-role">Assistant Warden – Kailash Boys Hostel</h4><p class="tl-org"><i class="fas fa-university"></i> NIT Hamirpur</p></div></div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════ CONTACT ═══════════════════ -->
-<section id="contact" class="contact section-pad">
+<!-- ═══════════════════ PROJECTS ═══════════════════ -->
+<section id="projects" class="projects section-pad">
   <div class="container">
     <div class="section-header">
-      <span class="section-tag">Let's Connect</span>
-      <h2 class="section-title">Contact</h2>
+      <span class="section-tag">Funded Research</span>
+      <h2 class="section-title">Projects</h2>
       <div class="title-underline"></div>
     </div>
 
+    <div class="proj-stats-bar reveal">
+      <div class="psb-item"><span class="psb-num" data-target="10">0</span><span class="psb-label">Total Projects</span></div>
+      <div class="psb-divider"></div>
+      <div class="psb-item"><span class="psb-num psb-currency">&#8377;3.66 Cr+</span><span class="psb-label">Total Funding</span></div>
+      <div class="psb-divider"></div>
+      <div class="psb-item"><span class="psb-num" data-target="8">0</span><span class="psb-label">As Principal Investigator</span></div>
+      <div class="psb-divider"></div>
+      <div class="psb-item"><span class="psb-num" data-target="8">0</span><span class="psb-label">Active Projects</span></div>
+    </div>
+
+    <div class="proj-filters reveal">
+      <button class="proj-filter active" data-pfilter="all">All Projects</button>
+      <button class="proj-filter" data-pfilter="pi">Principal Investigator</button>
+      <button class="proj-filter" data-pfilter="copi">Co-Investigator</button>
+      <button class="proj-filter" data-pfilter="active">Active</button>
+      <button class="proj-filter" data-pfilter="completed">Completed</button>
+    </div>
+
+    <div class="proj-grid" id="projGrid">
+
+      <div class="proj-card reveal" data-delay="0" data-prole="pi" data-pstatus="active">
+        <div class="proj-card-header"><div class="proj-number">01</div><div class="proj-badges"><span class="proj-role-badge pi-badge">PI</span><span class="proj-status-badge active-badge"><i class="fas fa-circle"></i> Active</span></div></div>
+        <div class="proj-icon-wrap" style="--pj-color:#4f8ef7;"><i class="fas fa-atom"></i></div>
+        <h3 class="proj-title">Graph Neural Networks for Quantum Entanglement Optimisation in Large-Scale Quantum Systems</h3>
+        <div class="proj-meta-grid">
+          <div class="proj-meta-item"><i class="fas fa-coins" style="color:#e2b96f;"></i><div><span class="pmeta-label">Funder</span><span class="pmeta-val">SPARC, MoE</span></div></div>
+          <div class="proj-meta-item"><i class="fas fa-rupee-sign" style="color:#5ce7b0;"></i><div><span class="pmeta-label">Worth</span><span class="pmeta-val fund-highlight">&#8377;1.10 Crore</span></div></div>
+        </div>
+        <div class="proj-timeline-bar">
+          <div class="ptb-dates"><span><i class="fas fa-play-circle"></i> Dec 2025</span><span><i class="fas fa-flag-checkered"></i> Nov 2027</span></div>
+          <div class="ptb-track"><div class="ptb-fill" style="width:8%;"></div></div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal" data-delay="100" data-prole="pi" data-pstatus="completed">
+        <div class="proj-card-header"><div class="proj-number">02</div><div class="proj-badges"><span class="proj-role-badge pi-badge">PI</span><span class="proj-status-badge completed-badge"><i class="fas fa-check-circle"></i> Completed</span></div></div>
+        <div class="proj-icon-wrap" style="--pj-color:#5ce7b0;"><i class="fas fa-hands-helping"></i></div>
+        <h3 class="proj-title">Mapping of Scope for Single-Window Registration &amp; Reporting of Social Protection Schemes in Chhattisgarh</h3>
+        <div class="proj-meta-grid">
+          <div class="proj-meta-item"><i class="fas fa-coins" style="color:#e2b96f;"></i><div><span class="pmeta-label">Funder</span><span class="pmeta-val">UNICEF</span></div></div>
+          <div class="proj-meta-item"><i class="fas fa-rupee-sign" style="color:#5ce7b0;"></i><div><span class="pmeta-label">Worth</span><span class="pmeta-val fund-highlight">&#8377;5.10 Lakhs</span></div></div>
+        </div>
+        <div class="proj-timeline-bar">
+          <div class="ptb-dates"><span><i class="fas fa-play-circle"></i> Nov 2025</span><span><i class="fas fa-flag-checkered"></i> Feb 2026</span></div>
+          <div class="ptb-track completed-track"><div class="ptb-fill" style="width:100%;"></div></div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal" data-delay="200" data-prole="copi" data-pstatus="active">
+        <div class="proj-card-header"><div class="proj-number">03</div><div class="proj-badges"><span class="proj-role-badge copi-badge">Co-PI</span><span class="proj-status-badge active-badge"><i class="fas fa-circle"></i> Active</span></div></div>
+        <div class="proj-icon-wrap" style="--pj-color:#e05fff;"><i class="fas fa-flask"></i></div>
+        <h3 class="proj-title">Partnerships in Research for Advanced Technologies in Healthcare, AI, Materials &amp; Energy (PRATHAME)</h3>
+        <div class="proj-meta-grid">
+          <div class="proj-meta-item"><i class="fas fa-coins" style="color:#e2b96f;"></i><div><span class="pmeta-label">Funder</span><span class="pmeta-val">PAIR, ANRF</span></div></div>
+          <div class="proj-meta-item"><i class="fas fa-rupee-sign" style="color:#5ce7b0;"></i><div><span class="pmeta-label">Worth</span><span class="pmeta-val fund-highlight">&#8377;2.30 Crore</span></div></div>
+        </div>
+        <div class="proj-timeline-bar">
+          <div class="ptb-dates"><span><i class="fas fa-play-circle"></i> Jul 2025</span><span><i class="fas fa-flag-checkered"></i> Jun 2026</span></div>
+          <div class="ptb-track"><div class="ptb-fill" style="width:75%;"></div></div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal" data-delay="300" data-prole="copi" data-pstatus="active">
+        <div class="proj-card-header"><div class="proj-number">04</div><div class="proj-badges"><span class="proj-role-badge copi-badge">Co-PI</span><span class="proj-status-badge active-badge"><i class="fas fa-circle"></i> Active</span></div></div>
+        <div class="proj-icon-wrap" style="--pj-color:#38d9f5;"><i class="fas fa-robot"></i></div>
+        <h3 class="proj-title">Design &amp; Development of a Quantum-Based PNT System for Underwater Robot Navigation</h3>
+        <div class="proj-meta-grid">
+          <div class="proj-meta-item"><i class="fas fa-coins" style="color:#e2b96f;"></i><div><span class="pmeta-label">Funder</span><span class="pmeta-val">IITINiF (ICPS), DST</span></div></div>
+          <div class="proj-meta-item"><i class="fas fa-rupee-sign" style="color:#5ce7b0;"></i><div><span class="pmeta-label">Worth</span><span class="pmeta-val fund-highlight">&#8377;30.64 Lakhs</span></div></div>
+        </div>
+        <div class="proj-timeline-bar">
+          <div class="ptb-dates"><span><i class="fas fa-play-circle"></i> Mar 2025</span><span><i class="fas fa-flag-checkered"></i> Dec 2026</span></div>
+          <div class="ptb-track"><div class="ptb-fill" style="width:18%;"></div></div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal" data-delay="0" data-prole="pi" data-pstatus="active">
+        <div class="proj-card-header"><div class="proj-number">05</div><div class="proj-badges"><span class="proj-role-badge pi-badge">PI</span><span class="proj-status-badge active-badge"><i class="fas fa-circle"></i> Active</span></div></div>
+        <div class="proj-icon-wrap" style="--pj-color:#e2b96f;"><i class="fas fa-seedling"></i></div>
+        <h3 class="proj-title">Next Generation Tech-Agriculture for Vulnerable Tribal Community in Chhattisgarh State</h3>
+        <div class="proj-meta-grid">
+          <div class="proj-meta-item"><i class="fas fa-coins" style="color:#e2b96f;"></i><div><span class="pmeta-label">Funder</span><span class="pmeta-val">TiHAN (ICPS), DST</span></div></div>
+          <div class="proj-meta-item"><i class="fas fa-rupee-sign" style="color:#5ce7b0;"></i><div><span class="pmeta-label">Worth</span><span class="pmeta-val fund-highlight">&#8377;25.00 Lakhs</span></div></div>
+        </div>
+        <div class="proj-timeline-bar">
+          <div class="ptb-dates"><span><i class="fas fa-play-circle"></i> Feb 2024</span><span><i class="fas fa-flag-checkered"></i> Mar 2026</span></div>
+          <div class="ptb-track"><div class="ptb-fill" style="width:85%;"></div></div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal" data-delay="100" data-prole="pi" data-pstatus="active">
+        <div class="proj-card-header"><div class="proj-number">06</div><div class="proj-badges"><span class="proj-role-badge pi-badge">PI</span><span class="proj-status-badge active-badge"><i class="fas fa-circle"></i> Active</span></div></div>
+        <div class="proj-icon-wrap" style="--pj-color:#ff7052;"><i class="fas fa-heartbeat"></i></div>
+        <h3 class="proj-title">IoT Accessed Secure E-Finance Platform for Managing Severe Acute Malnutrition among Vulnerable Tribes in Chhattisgarh</h3>
+        <div class="proj-meta-grid">
+          <div class="proj-meta-item"><i class="fas fa-coins" style="color:#e2b96f;"></i><div><span class="pmeta-label">Funder</span><span class="pmeta-val">IBITF (ICPS), DST</span></div></div>
+          <div class="proj-meta-item"><i class="fas fa-rupee-sign" style="color:#5ce7b0;"></i><div><span class="pmeta-label">Worth</span><span class="pmeta-val fund-highlight">&#8377;54.43 Lakhs</span></div></div>
+        </div>
+        <div class="proj-timeline-bar">
+          <div class="ptb-dates"><span><i class="fas fa-play-circle"></i> Feb 2023</span><span><i class="fas fa-flag-checkered"></i> Mar 2026</span></div>
+          <div class="ptb-track"><div class="ptb-fill" style="width:90%;"></div></div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal" data-delay="200" data-prole="pi" data-pstatus="active">
+        <div class="proj-card-header"><div class="proj-number">07</div><div class="proj-badges"><span class="proj-role-badge pi-badge">PI</span><span class="proj-status-badge active-badge"><i class="fas fa-circle"></i> Active</span></div></div>
+        <div class="proj-icon-wrap" style="--pj-color:#5ce7b0;"><i class="fas fa-brain"></i></div>
+        <h3 class="proj-title">Interactive System for Early Diagnosis of Autism Spectrum Disorder (ASD) using Deep Learning &amp; Federated Learning for Rural Communities</h3>
+        <div class="proj-meta-grid">
+          <div class="proj-meta-item"><i class="fas fa-coins" style="color:#e2b96f;"></i><div><span class="pmeta-label">Funder</span><span class="pmeta-val">EEQ, ANRF</span></div></div>
+          <div class="proj-meta-item"><i class="fas fa-rupee-sign" style="color:#5ce7b0;"></i><div><span class="pmeta-label">Worth</span><span class="pmeta-val fund-highlight">&#8377;77.66 Lakhs</span></div></div>
+        </div>
+        <div class="proj-timeline-bar">
+          <div class="ptb-dates"><span><i class="fas fa-play-circle"></i> Mar 2023</span><span><i class="fas fa-flag-checkered"></i> Mar 2026</span></div>
+          <div class="ptb-track"><div class="ptb-fill" style="width:90%;"></div></div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal" data-delay="300" data-prole="pi" data-pstatus="completed">
+        <div class="proj-card-header"><div class="proj-number">08</div><div class="proj-badges"><span class="proj-role-badge pi-badge">PI</span><span class="proj-status-badge completed-badge"><i class="fas fa-check-circle"></i> Completed</span></div></div>
+        <div class="proj-icon-wrap" style="--pj-color:#4f8ef7;"><i class="fas fa-link"></i></div>
+        <h3 class="proj-title">Blockchain Technology and Its Applications</h3>
+        <div class="proj-meta-grid">
+          <div class="proj-meta-item"><i class="fas fa-coins" style="color:#e2b96f;"></i><div><span class="pmeta-label">Funder</span><span class="pmeta-val">ICPS, DST</span></div></div>
+          <div class="proj-meta-item"><i class="fas fa-rupee-sign" style="color:#5ce7b0;"></i><div><span class="pmeta-label">Worth</span><span class="pmeta-val fund-highlight">&#8377;9.00 Lakhs</span></div></div>
+        </div>
+        <div class="proj-timeline-bar">
+          <div class="ptb-dates"><span><i class="fas fa-play-circle"></i> Mar 2019</span><span><i class="fas fa-flag-checkered"></i> Mar 2020</span></div>
+          <div class="ptb-track completed-track"><div class="ptb-fill" style="width:100%;"></div></div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal" data-delay="0" data-prole="pi" data-pstatus="active">
+        <div class="proj-card-header"><div class="proj-number">09</div><div class="proj-badges"><span class="proj-role-badge pi-badge">PI</span><span class="proj-status-badge active-badge"><i class="fas fa-circle"></i> Active</span></div></div>
+        <div class="proj-icon-wrap" style="--pj-color:#38d9f5;"><i class="fas fa-tint"></i></div>
+        <h3 class="proj-title">AI-Driven Groundwater Iron Safety Framework for Tribal Mining Communities of Chhattisgarh</h3>
+        <div class="proj-meta-grid">
+          <div class="proj-meta-item"><i class="fas fa-coins" style="color:#e2b96f;"></i><div><span class="pmeta-label">Funder</span><span class="pmeta-val">IBITF (ICPS), DST</span></div></div>
+          <div class="proj-meta-item"><i class="fas fa-rupee-sign" style="color:#5ce7b0;"></i><div><span class="pmeta-label">Worth</span><span class="pmeta-val fund-highlight">&#8377;30.43 Lakhs</span></div></div>
+        </div>
+        <div class="proj-timeline-bar">
+          <div class="ptb-dates"><span><i class="fas fa-play-circle"></i> Mar 2026</span><span><i class="fas fa-flag-checkered"></i> Dec 2027</span></div>
+          <div class="ptb-track"><div class="ptb-fill" style="width:4%;"></div></div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal" data-delay="100" data-prole="pi" data-pstatus="active">
+        <div class="proj-card-header"><div class="proj-number">10</div><div class="proj-badges"><span class="proj-role-badge pi-badge">PI</span><span class="proj-status-badge active-badge"><i class="fas fa-circle"></i> Active</span></div></div>
+        <div class="proj-icon-wrap" style="--pj-color:#e2b96f;"><i class="fas fa-leaf"></i></div>
+        <h3 class="proj-title">GreenWatch: Automated Violation Detection &amp; Green Compliance Framework for Mining Operations in Chhattisgarh</h3>
+        <div class="proj-meta-grid">
+          <div class="proj-meta-item"><i class="fas fa-coins" style="color:#e2b96f;"></i><div><span class="pmeta-label">Funder</span><span class="pmeta-val">IBITF (ICPS), DST</span></div></div>
+          <div class="proj-meta-item"><i class="fas fa-rupee-sign" style="color:#5ce7b0;"></i><div><span class="pmeta-label">Worth</span><span class="pmeta-val fund-highlight">&#8377;32.50 Lakhs</span></div></div>
+        </div>
+        <div class="proj-timeline-bar">
+          <div class="ptb-dates"><span><i class="fas fa-play-circle"></i> Mar 2026</span><span><i class="fas fa-flag-checkered"></i> Dec 2027</span></div>
+          <div class="ptb-track"><div class="ptb-fill" style="width:4%;"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="metrics section-pad">
+  <div class="container">
+    <div class="metrics-grid">
+      <div class="metric-card reveal"><div class="metric-icon"><i class="fas fa-file-alt"></i></div><div class="metric-num" data-target="27">0</div><div class="metric-label">Total Publications</div></div>
+      <div class="metric-card reveal"><div class="metric-icon"><i class="fas fa-award"></i></div><div class="metric-num" data-target="6">0</div><div class="metric-label">High Impact (IF 3+)</div></div>
+      <div class="metric-card reveal"><div class="metric-icon"><i class="fas fa-briefcase"></i></div><div class="metric-num" data-target="10">0</div><div class="metric-label">Years Experience</div></div>
+      <div class="metric-card reveal"><div class="metric-icon"><i class="fas fa-users"></i></div><div class="metric-num" data-target="20">0</div><div class="metric-label">Co-Authors Worldwide</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact section-pad">
+  <div class="container">
+    <div class="section-header"><span class="section-tag">Let's Connect</span><h2 class="section-title">Contact</h2><div class="title-underline"></div></div>
     <div class="contact-grid">
       <div class="contact-info reveal-left">
         <h3>Get in Touch</h3>
         <p>I welcome collaborations, research discussions, and academic inquiries. Feel free to reach out via email or phone.</p>
-
         <div class="contact-items">
-          <div class="contact-item">
-            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
-            <div>
-              <span class="ci-label">Official Email</span>
-              <a href="mailto:jchandrashekar.it@nitrr.ac.in" class="ci-value">jchandrashekar.it@nitrr.ac.in</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="ci-icon"><i class="fas fa-envelope-open"></i></div>
-            <div>
-              <span class="ci-label">Personal Email</span>
-              <a href="mailto:chandrashekar.jatoth@gmail.com" class="ci-value">chandrashekar.jatoth@gmail.com</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="ci-icon"><i class="fas fa-phone-alt"></i></div>
-            <div>
-              <span class="ci-label">Phone</span>
-              <a href="tel:+918897741409" class="ci-value">+91-8897741409</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="ci-icon"><i class="fas fa-map-pin"></i></div>
-            <div>
-              <span class="ci-label">Address</span>
-              <span class="ci-value">Dept. of IT, NIT Raipur,<br/>Chhattisgarh – 492010, India</span>
-            </div>
-          </div>
+          <div class="contact-item"><div class="ci-icon"><i class="fas fa-envelope"></i></div><div><span class="ci-label">Official Email</span><a href="mailto:jchandrashekar.it@nitrr.ac.in" class="ci-value">jchandrashekar.it@nitrr.ac.in</a></div></div>
+          <div class="contact-item"><div class="ci-icon"><i class="fas fa-envelope-open"></i></div><div><span class="ci-label">Personal Email</span><a href="mailto:chandrashekar.jatoth@gmail.com" class="ci-value">chandrashekar.jatoth@gmail.com</a></div></div>
+          <div class="contact-item"><div class="ci-icon"><i class="fas fa-phone-alt"></i></div><div><span class="ci-label">Phone</span><a href="tel:+918897741409" class="ci-value">+91-8897741409</a></div></div>
+          <div class="contact-item"><div class="ci-icon"><i class="fas fa-map-pin"></i></div><div><span class="ci-label">Address</span><span class="ci-value">Dept. of IT, NIT Raipur,<br/>Chhattisgarh – 492010, India</span></div></div>
         </div>
       </div>
-
       <div class="contact-form-wrap reveal-right">
         <form class="contact-form" id="contactForm">
           <div class="form-row">
-            <div class="form-group">
-              <label for="fname">Your Name</label>
-              <input type="text" id="fname" placeholder="Dr. / Prof. / Mr. / Ms." required/>
-            </div>
-            <div class="form-group">
-              <label for="femail">Email Address</label>
-              <input type="email" id="femail" placeholder="you@institution.edu" required/>
-            </div>
+            <div class="form-group"><label for="fname">Your Name</label><input type="text" id="fname" placeholder="Dr. / Prof. / Mr. / Ms." required/></div>
+            <div class="form-group"><label for="femail">Email Address</label><input type="email" id="femail" placeholder="you@institution.edu" required/></div>
           </div>
-          <div class="form-group">
-            <label for="fsubject">Subject</label>
-            <input type="text" id="fsubject" placeholder="Research Collaboration / Academic Query" required/>
-          </div>
-          <div class="form-group">
-            <label for="fmessage">Message</label>
-            <textarea id="fmessage" rows="5" placeholder="Write your message here..." required></textarea>
-          </div>
-          <button type="submit" class="btn-primary form-submit">
-            Send Message <i class="fas fa-paper-plane"></i>
-          </button>
-          <div class="form-success hidden" id="formSuccess">
-            <i class="fas fa-check-circle"></i> Message sent! Dr. Jatoth will respond soon.
-          </div>
+          <div class="form-group"><label for="fsubject">Subject</label><input type="text" id="fsubject" placeholder="Research Collaboration / Academic Query" required/></div>
+          <div class="form-group"><label for="fmessage">Message</label><textarea id="fmessage" rows="5" placeholder="Write your message here..." required></textarea></div>
+          <button type="submit" class="btn-primary form-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+          <div class="form-success hidden" id="formSuccess"><i class="fas fa-check-circle"></i> Message sent! Dr. Jatoth will respond soon.</div>
         </form>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════ FOOTER ═══════════════════ -->
 <footer class="footer">
   <div class="footer-inner">
-    <div class="footer-brand">
-      <span class="brand-initials">CJ</span>
-      <div>
-        <strong>Dr. Chandrashekar Jatoth</strong><br/>
-        <small>Assistant Professor · NIT Raipur</small>
-      </div>
-    </div>
+    <div class="footer-brand"><span class="brand-initials">CJ</span><div><strong>Dr. Chandrashekar Jatoth</strong><br/><small>Assistant Professor · NIT Raipur</small></div></div>
     <p class="footer-copy">© 2026 Dr. Chandrashekar Jatoth. All rights reserved.</p>
-    <div class="footer-links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#publications">Publications</a>
-      <a href="#contact">Contact</a>
-    </div>
+    <div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
   </div>
 </footer>
 
-<!-- Back to top -->
 <button class="back-top" id="backTop"><i class="fas fa-chevron-up"></i></button>
-
 <script src="main.js"></script>
 </body>
 </html>
