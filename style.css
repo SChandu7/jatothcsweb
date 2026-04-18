@@ -25,7 +25,7 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; font-size: 16px; }
-body { font-family: var(--font-body); background: var(--white); color: var(--ink); overflow-x: hidden; cursor: none; }
+body { font-family: var(--font-body); background: var(--white); color: var(--ink); overflow-x: hidden; cursor: default; }
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: var(--grey-100); }
 ::-webkit-scrollbar-thumb { background: var(--crimson); border-radius: 3px; }
