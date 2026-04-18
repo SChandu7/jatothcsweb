@@ -37,10 +37,7 @@ body { font-family: var(--font-body); background: var(--white); color: var(--ink
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
 
-.cursor-dot, .cursor-ring { position: fixed; pointer-events: none; z-index: 9998; border-radius: 50%; transform: translate(-50%, -50%); transition: opacity 0.3s; }
-.cursor-dot { width: 6px; height: 6px; background: var(--crimson); }
-.cursor-ring { width: 30px; height: 30px; border: 1.5px solid var(--crimson); opacity: 0.4; transition: width 0.3s, height 0.3s, opacity 0.3s; }
-body:has(a:hover) .cursor-ring, body:has(button:hover) .cursor-ring { width: 48px; height: 48px; opacity: 0.2; border-color: var(--cobalt); }
+
 
 #navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; display: flex; align-items: center; justify-content: space-between; padding: 0 5%; height: 68px; background: rgba(255,255,255,0.92); backdrop-filter: blur(18px); border-bottom: 1px solid var(--border); transition: box-shadow var(--transition); }
 #navbar.scrolled { box-shadow: 0 4px 24px rgba(19,64,168,0.10); border-bottom-color: var(--crimson); }
